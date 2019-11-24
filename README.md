@@ -21,3 +21,6 @@ This module will hide both the navbar and the pill for a Fullscreen Gesture expe
 ## Changelog
 ### v1.0
 - initial release
+### v2.0
+- hide gesture bar correctly in landscape
+
