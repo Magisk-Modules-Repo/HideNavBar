@@ -15,7 +15,8 @@ This module will hide both the navbar and the pill for a Fullscreen Gesture expe
 3. Enjoy!
 
 ## Links
-https://github.com/DanGLES3/HideNavBar
+- [GitHub](Https://github.com/DanGLES3/HideNavBar) 
+- [Telegram](https://t.me/DanGLES3)
 
 ## Changelog
 ### v1.0
