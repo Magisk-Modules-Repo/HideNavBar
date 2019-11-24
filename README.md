@@ -12,6 +12,7 @@ This is a simple Magisk module that enables Fullscreen Gestures on Android 10.
 3. Enjoy!
 
 ## Links
+https://github.com/DanGLES3/HideNavBar
 
 ## Changelog
 ### v1.0
