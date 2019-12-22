@@ -139,9 +139,15 @@ on_install() {
   fi
 
   ui_print "- Extracting module files"
-  unzip -o "$ZIPFILE" 'system/*' -d $MODPATH >&2
+  unzip -o "$ZIPFILE" 'overlays/*' 'system/*' -d $MODPATH >&2
+if [ -d /system/overlay/NavigationBarModeGestural ]; then
+  mkdir -p $MODPATH/system/overlay
+  cp -rf $MODPATH/overlays/* $MODPATH/system/overlay/
+else
+  mkdir -p $MODPATH/system/product/overlay
+  cp -rf $MODPATH/overlays/* $MODPATH/system/product/overlay/
+fi
 }
-
 # Only some special files require specific permissions
 # This function will be called after on_install is done
 # The default permissions should be good enough for most cases
