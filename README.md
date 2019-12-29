@@ -28,4 +28,4 @@ This module will hide both the navbar and the pill for a Fullscreen Gesture expe
 ### v4.0
 - Hopefully fixed the issue that made so uninstalling the module made gestures completely unavailable on some ROMs
 ### V5.0
-- Update to the latest Magisk module template
+- Update to the latest Magisk module template and some minor clean ups in the code
