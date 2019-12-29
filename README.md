@@ -27,4 +27,5 @@ This module will hide both the navbar and the pill for a Fullscreen Gesture expe
 - Reduced conflict with some apps (like Gboard) by slightly lowering the gesture trigger area
 ### v4.0
 - Hopefully fixed the issue that made so uninstalling the module made gestures completely unavailable on some ROMs
-### V5.0 Update to the latest Magisk module template
+### V5.0
+- Update to the latest Magisk module template
