@@ -6,6 +6,9 @@
 if [ -d /system/overlay/NavigationBarModeGestural ]; then
   mkdir -p $MODPATH/system/overlay
   cp -rf $MODPATH/overlays/* $MODPATH/system/overlay/
+elif [ -d /system/vendor/overlay/NavigationBarModeGestural ]; then
+  mkdir -p $MODPATH/system/vendor/overlay
+  cp -rf $MODPATH/overlays/* $MODPATH/system/vendor/overlay/
 else
   mkdir -p $MODPATH/system/product/overlay
   cp -rf $MODPATH/overlays/* $MODPATH/system/product/overlay/
