@@ -18,6 +18,9 @@ This module will hide both the navbar and the pill for a Fullscreen Gesture expe
 - [GitHub](https://github.com/Magisk-Modules-Repo/HideNavBar) 
 - [Telegram](https://t.me/DanGLES3)
 
+## Disclaimer
+- this module won't work on devices running MIUI as not only do they have their own gesture system but they already offer some form of fullscreen gestures
+
 ## Changelog
 ### v1.0
 - Initial release
