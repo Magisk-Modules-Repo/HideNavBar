@@ -3,6 +3,17 @@
     abort "This module is for Android 10 only!"
   fi
 
+VEN=/system/vendor
+[ -L /system/vendor ] && VEN=/vendor
+if [ -f $VEN/build.prop ]; then BUILDS="/system/build.prop $VEN/build.prop"; else BUILDS="/system/build.prop"; fi
+# Thanks Narsil/Sauron for the huge props list for various android systems
+# Far easier to look there then ask users for their build.props
+MIUI=$(grep "ro.miui.ui.version.*" $BUILDS)
+if [ $MIUI ]; then
+  ui_print " MIUI is not supported"
+  abort " Aborting..."
+fi
+
 if [ -d /system/overlay/NavigationBarModeGestural ]; then
   mkdir -p $MODPATH/system/overlay
   cp -rf $MODPATH/overlays/* $MODPATH/system/overlay/
