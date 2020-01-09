@@ -34,3 +34,6 @@ This module will hide both the navbar and the pill for a Fullscreen Gesture expe
 - Update to the latest Magisk module template and some minor clean ups in the code
 ### v6.0
 - Added support for ROMs that use /vendor/overlays for their gesture overlays
+### v6.1
+- Minor update
+- Block installation on MIUI as it's incompatible with the module
