@@ -6,7 +6,7 @@ This module will hide both the navbar and the pill for a Fullscreen Gesture expe
 
 
 ## Requirements
-- Android 10 only
+- Android 10 (Android 11 support is untested atm) 
 - Magisk 19+
 
 ## Installation
