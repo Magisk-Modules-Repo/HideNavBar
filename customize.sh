@@ -1,6 +1,6 @@
   # Don't install on API  # Don't install on API levels other than 29
-  if [ ! $API -eq "29" ]; then
-    abort "This module is for Android 10 only!"
+  if [ ! $API -ge "29" ]; then
+    abort "This module is for Android 10-11 only!"
   fi
 
 VEN=/system/vendor
