@@ -38,4 +38,4 @@ This module will hide both the navbar and the pill for a Fullscreen Gesture expe
 - Minor update
 - Block installation on MIUI as it's incompatible with the module
 ### v6.2
-- Add support for Android 11 (R) untested as Magisk isn't avaliable for Android R yet
+- Add support for Android 11/R (untested as Magisk isn't avaliable for Android R yet)
