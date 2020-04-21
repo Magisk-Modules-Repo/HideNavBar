@@ -6,7 +6,7 @@ If you still want the pill and the space underneath the keyboard you should try 
 
 ## Requirements
 - Android 10 (Android 11 support is untested atm) 
-- Magisk 19+
+- Magisk 20+
 
 ## Installation
 1. Flash this module.
@@ -38,3 +38,5 @@ If you still want the pill and the space underneath the keyboard you should try 
 - Block installation on MIUI as it's incompatible with the module
 ### v6.2
 - Add support for Android 11/R (untested as Magisk isn't avaliable for Android R yet)
+### v6.3
+- Update to latest module installer/update-binary (now requires Magisk 20.x and up)
