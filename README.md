@@ -1,9 +1,8 @@
 # Fullscreen Gestures for Android 10
 
-This is a simple Magisk module that enables Fullscreen Gestures on Android 10.
-
-This module will hide both the navbar and the pill for a Fullscreen Gesture experience
-
+This Magisk module enables fullscreen gestures for Android 10. Both the navbar and pill will be hidden in order to maximize screen space
+.
+If you still want the pill and navbar (while the keyboard is open) you should try [Immersive Gestural Navigation Bar for Android 10](https://github.com/samchugit/Immersive_Gestural_Nav_Bar)
 
 ## Requirements
 - Android 10 (Android 11 support is untested atm) 
