@@ -18,7 +18,7 @@ If you still want the pill and the space underneath the keyboard you should try 
 - [Telegram](https://t.me/DanGLES3)
 
 ## Disclaimer
-- this module won't work on devices running MIUI as not only do they have their own gesture system but they already offer some form of fullscreen gestures
+- This module won't work on devices running MIUI
 
 ## Changelog
 ### v1.0
