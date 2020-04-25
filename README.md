@@ -41,5 +41,3 @@ If you still want the pill and the space underneath the keyboard you should try 
 - Block installation on MIUI as it's incompatible with the module
 ### v6.2
 - Add support for Android 11/R (untested as Magisk isn't avaliable for Android R yet)
-### v6.3
-- Update to latest module installer/update-binary (now requires Magisk 20.x and up)
