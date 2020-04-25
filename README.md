@@ -8,6 +8,9 @@ If you still want the pill and the space underneath the keyboard you should try 
 - Android 10 (Android 11 support is untested atm) 
 - Magisk 20+
 
+##Special thanks
+@Skittles9823 for his help with module installer script
+
 ## Installation
 1. Flash this module.
 2. Reboot.
