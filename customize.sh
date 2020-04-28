@@ -14,14 +14,19 @@ if [ $MIUI ]; then
   abort " Aborting..."
 fi
 
-if [ -d /system/overlay/NavigationBarModeGestural ]; then
+CODENAME=$(getprop ro.build.version.codename)
+if [[ "$CODENAME" == "R" ]]; then
+  mkdir -p $MODPATH/system/product/overlay
+  cp -rf $MODPATH/R/* $MODPATH/system/product/overlay/
+elif [ -d /system/overlay/NavigationBarModeGestural ]; then
   mkdir -p $MODPATH/system/overlay
-  cp -rf $MODPATH/overlays/* $MODPATH/system/overlay/
+  cp -rf $MODPATH/Q/* $MODPATH/system/overlay/
 elif [ -d /system/vendor/overlay/NavigationBarModeGestural ]; then
   mkdir -p $MODPATH/system/vendor/overlay
-  cp -rf $MODPATH/overlays/* $MODPATH/system/vendor/overlay/
+  cp -rf $MODPATH/Q/* $MODPATH/system/vendor/overlay/
 else
   mkdir -p $MODPATH/system/product/overlay
-  cp -rf $MODPATH/overlays/* $MODPATH/system/product/overlay/
+  cp -rf $MODPATH/Q/* $MODPATH/system/product/overlay/
 fi
-rm -rf $MODPATH/overlays
+rm -rf $MODPATH/R
+rm -rf $MODPATH/Q
