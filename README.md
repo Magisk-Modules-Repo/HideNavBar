@@ -5,7 +5,7 @@ This Magisk module enables fullscreen gestures for Android 10. Both the navbar a
 If you still want the pill and the space underneath the keyboard you should try [Immersive Gestural Navigation Bar for Android 10](https://github.com/samchugit/Immersive_Gestural_Nav_Bar)
 
 ## Requirements
-- Android 10 (Android 11 support is untested atm) 
+- Android 10/11
 - Magisk 20+
 
 ## Installation
