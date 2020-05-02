@@ -8,6 +8,14 @@ If you still want the pill and the space underneath the keyboard you should try 
 - Android 10-11
 - Magisk 20+
 
+Before:
+
+![](https://i.imgur.com/3GIKuoE.jpg)
+
+After
+
+![](https://imgur.com/a/Mgo1j8a.jpg)
+
 ## Installation
 1. Flash this module.
 2. Reboot.
