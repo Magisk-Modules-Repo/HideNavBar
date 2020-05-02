@@ -14,7 +14,7 @@ Before:
 
 After
 
-![](https://imgur.com/a/Mgo1j8a.jpg)
+![](https://i.imgur.com/q0vTxdR.png)
 
 ## Installation
 1. Flash this module.
