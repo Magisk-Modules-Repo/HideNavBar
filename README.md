@@ -24,7 +24,7 @@ After
 3. Enjoy!
 
 ## Special thanks
-@Skittles9823 for his help with module installer script 
+[Rhyse Simpson](https://t.me/Skittles9823) for his help with module installer script 
 
 [@Nebulart](https://t.me/nebulart) for the banner
 
