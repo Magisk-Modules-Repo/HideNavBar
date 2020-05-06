@@ -25,6 +25,7 @@ After
 
 ## Special thanks
 @Skittles9823 for his help with module installer script
+@nebulart for the banner
 
 ## Links
 - [GitHub](https://github.com/Magisk-Modules-Repo/HideNavBar) 
