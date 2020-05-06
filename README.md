@@ -25,6 +25,7 @@ After
 
 ## Special thanks
 @Skittles9823 for his help with module installer script 
+
 [@Nebulart](https://t.me/nebulart) for the banner
 
 ## Links
