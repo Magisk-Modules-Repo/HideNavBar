@@ -28,6 +28,8 @@ After
 
 - [Nebulart](https://t.me/nebulart) for the banner
 
+- All Custom ROMs who made my module an official feature in their ROM (AOSIP, Havoc & etc)
+
 ## Links
 - [GitHub](https://github.com/Magisk-Modules-Repo/HideNavBar) 
 - [Telegram](https://t.me/DanGLES3)
