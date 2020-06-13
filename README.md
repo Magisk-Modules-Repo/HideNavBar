@@ -59,3 +59,5 @@ After
 - Fix Android 11 support
 ### V6.5
 - Lowered gesture area to 18dp to reduce conflicts with apps
+### V6.6
+- Hotfix for Android 11 beta
