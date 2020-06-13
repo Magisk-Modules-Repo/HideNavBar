@@ -14,8 +14,8 @@ if [ $MIUI ]; then
   abort " Aborting..."
 fi
 
-CODENAME=$(getprop ro.build.version.codename)
-if [[ "$CODENAME" == "R" ]]; then
+CODENAME=$(getprop ro.system.build.version.release)
+if [[ "$CODENAME" == "11" ]]; then
   mkdir -p $MODPATH/system/product/overlay
   cp -rf $MODPATH/R/* $MODPATH/system/product/overlay/
 elif [ -d /system/overlay/NavigationBarModeGestural ]; then
