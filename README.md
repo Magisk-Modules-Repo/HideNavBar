@@ -61,3 +61,5 @@ After
 - Lowered gesture area to 18dp to reduce conflicts with apps
 ### V6.6
 - Hotfix for Android 11 beta
+#### V6.7 
+- Fix gesture option disappearing on later Android 11 builds
