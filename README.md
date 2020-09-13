@@ -10,11 +10,11 @@ If you still want the pill and the space underneath the keyboard you should try 
 - Android 10-11
 - Magisk 20+
 
-Before:
+Before (Fullscreen option):
 
 ![](https://i.imgur.com/3GIKuoE.jpg)
 
-After
+After (Fullscreen option)
 
 ![](https://i.imgur.com/q0vTxdR.png)
 
