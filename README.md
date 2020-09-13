@@ -63,3 +63,5 @@ After
 - Hotfix for Android 11 beta
 #### V6.7 
 - Fix gesture option disappearing on later Android 11 builds
+### V7.0
+- Switch to the MMT-EX template and added immersive gestures by [samchugit](https://github.com/samchugit/Immersive_Gestural_Nav_Bar) as an option 
