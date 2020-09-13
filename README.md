@@ -4,8 +4,6 @@
 
 This Magisk module enables fullscreen gestures for Android 10-11. Both the navbar and pill will be hidden in order to maximize screen space.
 
-If you still want the pill and the space underneath the keyboard you should try [Immersive Gestural Navigation Bar for Android 10](https://github.com/samchugit/Immersive_Gestural_Nav_Bar)
-
 ## Requirements
 - Android 10-11
 - Magisk 20+
@@ -31,6 +29,8 @@ After (Immersive)
 - [Rhyse Simpson](https://t.me/Skittles9823) for his help with module installer script 
 
 - [Nebulart](https://t.me/nebulart) for the banner
+
+- [samchugit](https://github.com/samchugit) for making the original immersive gestures module
 
 - All Custom ROMs who made my module an official feature in their ROM (AOSIP, Havoc & etc)
 
