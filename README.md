@@ -10,13 +10,17 @@ If you still want the pill and the space underneath the keyboard you should try 
 - Android 10-11
 - Magisk 20+
 
-Before (Fullscreen option):
+Before:
 
 ![](https://i.imgur.com/3GIKuoE.jpg)
 
-After (Fullscreen option)
+After (Fullscreen)
 
 ![](https://i.imgur.com/q0vTxdR.png)
+
+After (Immersive
+
+![](https://i.imgur.com/Tkw5Khv_d.webp?maxwidth=640&shape=thumb&fidelity=medium)
 
 ## Installation
 1. Flash this module.
