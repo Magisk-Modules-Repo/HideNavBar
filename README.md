@@ -18,7 +18,7 @@ After (Fullscreen)
 
 ![](https://i.imgur.com/q0vTxdR.png)
 
-After (Immersive
+After (Immersive)
 
 ![](https://i.imgur.com/Tkw5Khv_d.webp?maxwidth=640&shape=thumb&fidelity=medium)
 
