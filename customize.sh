@@ -1,32 +1,67 @@
-  # Don't install on API  # Don't install on API levels other than 29
-  if [ ! $API -ge "29" ]; then
-    abort "This module is for Android 10-11 only!"
-  fi
+n##########################################################################################
+#
+# MMT Extended Config Script
+#
+##########################################################################################
 
-VEN=/system/vendor
-[ -L /system/vendor ] && VEN=/vendor
-if [ -f $VEN/build.prop ]; then BUILDS="/system/build.prop $VEN/build.prop"; else BUILDS="/system/build.prop"; fi
-# Thanks Narsil/Sauron for the huge props list for various android systems
-# Far easier to look there then ask users for their build.props
-MIUI=$(grep "ro.miui.ui.version.*" $BUILDS)
-if [ $MIUI ]; then
-  ui_print " MIUI is not supported"
-  abort " Aborting..."
-fi
+##########################################################################################
+# Config Flags
+##########################################################################################
 
-CODENAME=$(getprop ro.system.build.version.release)
-if [[ "$CODENAME" == "11" ]]; then
-  mkdir -p $MODPATH/system/product/overlay
-  cp -rf $MODPATH/R/* $MODPATH/system/product/overlay/
-elif [ -d /system/overlay/NavigationBarModeGestural ]; then
-  mkdir -p $MODPATH/system/overlay
-  cp -rf $MODPATH/Q/* $MODPATH/system/overlay/
-elif [ -d /system/vendor/overlay/NavigationBarModeGestural ]; then
-  mkdir -p $MODPATH/system/vendor/overlay
-  cp -rf $MODPATH/Q/* $MODPATH/system/vendor/overlay/
-else
-  mkdir -p $MODPATH/system/product/overlay
-  cp -rf $MODPATH/Q/* $MODPATH/system/product/overlay/
-fi
-rm -rf $MODPATH/R
-rm -rf $MODPATH/Q
+# Uncomment and change 'MINAPI' and 'MAXAPI' to the minimum and maximum android version for your mod
+# Uncomment DYNLIB if you want libs installed to vendor for oreo+ and system for anything older
+# Uncomment DEBUG if you want full debug logs (saved to /sdcard)
+MINAPI=29
+MAXAPI=30
+#DYNLIB=true
+#DEBUG=true
+
+##########################################################################################
+# Replace list
+##########################################################################################
+
+# List all directories you want to directly replace in the system
+# Check the documentations for more info why you would need this
+
+# Construct your list in the following format
+# This is an example
+REPLACE_EXAMPLE="
+/system/app/Youtube
+/system/priv-app/SystemUI
+/system/priv-app/Settings
+/system/framework
+"
+
+# Construct your own list here
+REPLACE="
+"
+##########################################################################################
+# Permissions
+##########################################################################################
+
+set_permissions() {
+  : # Remove this if adding to this function
+
+  # Note that all files/folders in magisk module directory have the $MODPATH prefix - keep this prefix on all of your files/folders
+  # Some examples:
+  
+  # For directories (includes files in them):
+  # set_perm_recursive  <dirname>                <owner> <group> <dirpermission> <filepermission> <contexts> (default: u:object_r:system_file:s0)
+  
+  # set_perm_recursive $MODPATH/system/lib 0 0 0755 0644
+  # set_perm_recursive $MODPATH/system/vendor/lib/soundfx 0 0 0755 0644
+
+  # For files (not in directories taken care of above)
+  # set_perm  <filename>                         <owner> <group> <permission> <contexts> (default: u:object_r:system_file:s0)
+  
+  # set_perm $MODPATH/system/lib/libart.so 0 0 0644
+  # set_perm /data/local/tmp/file.txt 0 0 644
+}
+
+##########################################################################################
+# MMT Extended Logic - Don't modify anything after this
+##########################################################################################
+
+SKIPUNZIP=1
+unzip -qjo "$ZIPFILE" 'common/functions.sh' -d $TMPDIR >&2
+. $TMPDIR/functions.sh
