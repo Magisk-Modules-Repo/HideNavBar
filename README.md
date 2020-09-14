@@ -1,8 +1,8 @@
-# Fullscreen Gestures for Android 10-11
+# Fullscreen/Immersive Gesture Mods for Android 10-11
 
 ![](https://i.imgur.com/3fJJK02.png)
 
-This Magisk module enables fullscreen/immersive gestures for Android 10-11. Both the navbar and pill can be hidden in order to maximize screen space.
+This Magisk module enables fullscreen/immersive gestures for Android 10-11.
 
 ## Requirements
 - Android 10-11
