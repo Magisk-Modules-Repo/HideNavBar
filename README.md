@@ -33,6 +33,9 @@ Immersive (Small Keyboard bar)
 
 ![](https://i.imgur.com/siUBxhY.jpg)
 
+Immersive (No Pill+Small Keyboard)
+![](https://i.imgur.com/8JrB5uZ.jpg)
+
 ## Installation
 1. Flash this module.
 2. Reboot.
