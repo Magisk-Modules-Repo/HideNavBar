@@ -11,6 +11,8 @@ ui_print "   Vol+ = Fullscreen, Vol- = Immersive"
 if $VKSEL; then
      FS=true
      IM=false
+     HP=false
+     IMQS=false
 else
 	 IM=true
      FS=false
