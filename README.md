@@ -91,5 +91,5 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 Hide Pill (for immersive mode): Allows you to have a near fullscreen experience while still keeping the spacing underneath the keyboard
 
 Small keyboard bar (for immersive mode): Allows you to have less spacing underneath the keyboard
-### V7.1
+### V7.2
 - Fix fullscreen gestures installation
