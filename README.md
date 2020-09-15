@@ -23,7 +23,7 @@ Immersive (With the Pill)
 ![](https://i.imgur.com/ZPdYrom.jpg)
 
 
-Immersive (No Pill Keyboard Open/Closed)
+Immersive (Without the Pill)
 
 ![](https://i.imgur.com/q0vTxdR.png)
 
@@ -33,7 +33,7 @@ Immersive (With the Pill + Small Keyboard bar)
 
 ![](https://i.imgur.com/siUBxhY.jpg)
 
-Immersive (No Pill + Small Keyboard)
+Immersive (Without the Pill + Small Keyboard bar)
 
 ![](https://i.imgur.com/8JrB5uZ.jpg)
 
