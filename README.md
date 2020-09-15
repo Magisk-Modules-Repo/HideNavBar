@@ -22,16 +22,15 @@ Immersive (With the Pill + Default Spacing under the Keyboard)
 
 ![](https://i.imgur.com/ZPdYrom.jpg)
 
+Immersive (With the Pill + Small Spacing under the Keyboard)
+
+![](https://i.imgur.com/siUBxhY.jpg)
 
 Immersive (Without the Pill + Default Spacing under the Keyboard)
 
 ![](https://i.imgur.com/q0vTxdR.png)
 
 ![](https://i.imgur.com/FpdqBfb.jpg)
-
-Immersive (With the Pill + Small Spacing under the Keyboard)
-
-![](https://i.imgur.com/siUBxhY.jpg)
 
 Immersive (Without the Pill + Small Spacing under the Keyboard)
 
