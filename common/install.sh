@@ -49,8 +49,58 @@ if $IM; then
     cp -rf $MODPATH/IMQ/* $MODPATH/system/product/overlay/
     fi
 fi
-            
+
+if $IM; then
+     ui_print "   Hide pill and keep keyboard height/space?  "
+     ui_print " "
+     ui_print "   Vol+ = Yes , Vol- = No (default) "
+     if $VKSEL; then
+     HP=true
+     else
+     HP=false
+     fi 
+fi
+
+if $HP; then
+     if [ -d /system/overlay/NavigationBarModeGestural ]; then
+    mkdir -p $MODPATH/system/overlay
+    cp -rf $MODPATH/HP/* $MODPATH/system/overlay/
+    elif [ -d /system/vendor/overlay/NavigationBarModeGestural ]; then
+    mkdir -p $MODPATH/system/vendor/overlay
+    cp -rf $MODPATH/HP/* $MODPATH/system/vendor/overlay/
+    else
+    mkdir -p $MODPATH/system/product/overlay
+    cp -rf $MODPATH/HP/* $MODPATH/system/product/overlay/
+    fi
+fi
+
+if $IM; then
+     ui_print "   Reduce the size of the keyboard bar?  "
+     ui_print " "
+     ui_print "   Vol+ = Yes , Vol- = No (default) "
+     if $VKSEL; then
+     IMQS=true
+     else
+     IMQS=false
+     fi 
+fi
+
+if $IMQS; then
+     if [ -d /system/overlay/NavigationBarModeGestural ]; then
+    mkdir -p $MODPATH/system/overlay
+    cp -rf $MODPATH/IMQS/* $MODPATH/system/overlay/
+    elif [ -d /system/vendor/overlay/NavigationBarModeGestural ]; then
+    mkdir -p $MODPATH/system/vendor/overlay
+    cp -rf $MODPATH/IMQS/* $MODPATH/system/vendor/overlay/
+    else
+    mkdir -p $MODPATH/system/product/overlay
+    cp -rf $MODPATH/IMQS/* $MODPATH/system/product/overlay/
+    fi
+fi
+
 rm -rf $MODPATH/R
 rm -rf $MODPATH/Q
 rm -rf $MODPATH/IMQ
-rm -rf $MODPATH/IMR
+rm -rf $MODPATH/IMR 
+rm -rf $MODPATH/HP
+rm -rf $MODPATH/IMQS
