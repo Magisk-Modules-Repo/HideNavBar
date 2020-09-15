@@ -16,24 +16,24 @@ Fullscreen
 
 ![](https://i.imgur.com/q0vTxdR.png)
 
-Immersive (With the Pill + Default Keyboard bar)
+Immersive (With the Pill + Default Spacing under the Keyboard)
 
 ![](https://i.imgur.com/x1zcFTn.jpg)
 
 ![](https://i.imgur.com/ZPdYrom.jpg)
 
 
-Immersive (Without the Pill + Default Keyboard bar)
+Immersive (Without the Pill + Default Spacing under the Keyboard)
 
 ![](https://i.imgur.com/q0vTxdR.png)
 
 ![](https://i.imgur.com/FpdqBfb.jpg)
 
-Immersive (With the Pill + Small Keyboard bar)
+Immersive (With the Pill + Small Spacing under the Keyboard)
 
 ![](https://i.imgur.com/siUBxhY.jpg)
 
-Immersive (Without the Pill + Small Keyboard bar)
+Immersive (Without the Pill + Small Spacing under the Keyboard)
 
 ![](https://i.imgur.com/8JrB5uZ.jpg)
 
