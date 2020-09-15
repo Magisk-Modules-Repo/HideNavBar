@@ -69,3 +69,9 @@ After (Immersive)
 - Fix gesture option disappearing on later Android 11 builds
 ### V7.0
 - Switch to the MMT-EX template and added immersive gestures by [samchugit](https://github.com/samchugit/Immersive_Gestural_Nav_Bar) as an option 
+### V7.1 
+- Added new options during install
+
+Hide Pill (for immersive mode): Allows you to have a near fullscreen experience while still keeping the spacing underneath the keyboard
+
+Small keyboard bar (for immersive mode): Allows you to have less spacing underneath the keyboard
