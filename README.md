@@ -8,17 +8,30 @@ This Magisk module enables fullscreen/immersive gestures for Android 10-11.
 - Android 10-11
 - Magisk 20+
 
-Before:
+None:
 
 ![](https://i.imgur.com/3GIKuoE.jpg)
 
-After (Fullscreen)
+Fullscreen (Keyboard open/closed)
 
 ![](https://i.imgur.com/q0vTxdR.png)
 
-After (Immersive)
+Immersive (Keyboard Open/Closed)
 
-![](https://i.imgur.com/Tkw5Khv_d.webp?maxwidth=640&shape=thumb&fidelity=medium)
+![](https://i.imgur.com/x1zcFTn.jpg)
+
+![](https://i.imgur.com/ZPdYrom.jpg)
+
+
+Immersive (No Pill Keyboard Open/Closed)
+
+![](https://i.imgur.com/q0vTxdR.png)
+
+![](https://i.imgur.com/FpdqBfb.jpg)
+
+Immersive (Small Keyboard bar)
+
+![](https://i.imgur.com/siUBxhY.jpg)
 
 ## Installation
 1. Flash this module.
