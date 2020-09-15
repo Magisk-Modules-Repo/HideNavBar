@@ -12,11 +12,11 @@ None:
 
 ![](https://i.imgur.com/3GIKuoE.jpg)
 
-Fullscreen (Keyboard open/closed)
+Fullscreen
 
 ![](https://i.imgur.com/q0vTxdR.png)
 
-Immersive (Keyboard Open/Closed)
+Immersive (With the Pill)
 
 ![](https://i.imgur.com/x1zcFTn.jpg)
 
@@ -29,11 +29,12 @@ Immersive (No Pill Keyboard Open/Closed)
 
 ![](https://i.imgur.com/FpdqBfb.jpg)
 
-Immersive (Small Keyboard bar)
+Immersive (With the Pill + Small Keyboard bar)
 
 ![](https://i.imgur.com/siUBxhY.jpg)
 
-Immersive (No Pill+Small Keyboard)
+Immersive (No Pill + Small Keyboard)
+
 ![](https://i.imgur.com/8JrB5uZ.jpg)
 
 ## Installation
