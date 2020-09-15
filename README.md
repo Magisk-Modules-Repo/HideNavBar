@@ -16,14 +16,14 @@ Fullscreen
 
 ![](https://i.imgur.com/q0vTxdR.png)
 
-Immersive (With the Pill)
+Immersive (With the Pill + Default Keyboard bar)
 
 ![](https://i.imgur.com/x1zcFTn.jpg)
 
 ![](https://i.imgur.com/ZPdYrom.jpg)
 
 
-Immersive (Without the Pill)
+Immersive (Without the Pill + Default Keyboard bar)
 
 ![](https://i.imgur.com/q0vTxdR.png)
 
