@@ -55,7 +55,7 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 - [Telegram](https://t.me/DanGLES3)
 
 ## Disclaimer
-- This module won't work on devices running MIUI
+- This module won't work on devices running MIUI (may work on MIUI builds based on Android 10 but that's untested)
 
 ## Changelog
 ### v1.0
