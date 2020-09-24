@@ -2,7 +2,7 @@
 
 ![](https://i.imgur.com/vcXAreJ.png)
 
-This Magisk module enables fullscreen/immersive gestures for Android 10-11.
+This Magisk Module lets you customize the Android 10-11 gestures.
 
 ## Requirements
 - Android 10-11
