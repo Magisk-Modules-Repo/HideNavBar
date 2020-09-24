@@ -55,7 +55,7 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 - [Telegram](https://t.me/DanGLES3)
 
 ## Disclaimer
-- This module won't disable the navbar, so if you want to use Fluid NG on Android R then this module isn't for you
+- This module won't disable the navbar, so if you want to use Fluid NG on Android 11 then this module isn't for you
 - This module won't work on devices running MIUI (may work on MIUI builds based on Android 10 but that's untested)
 - Hide pill in immersive mode currently doesn't work on LG devices (this is being investigated)
 
