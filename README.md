@@ -96,3 +96,5 @@ Small keyboard bar (for immersive mode): Allows you to have less spacing underne
 
 ### V7.2
 - Fix fullscreen gestures installation (apologies for the inconvenience)
+### V8.0 
+- Allow changing gesture sensitivity (for users who may prefer Android's default gesture sensitivity)
