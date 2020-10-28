@@ -130,13 +130,13 @@ fi
 if $IMDS; then
     if [ -d /system/overlay/NavigationBarModeGestural ]; then
     mkdir -p "$MODPATH"/system/overlay
-    cp -rf "$MODPATH"/IMDS/* "$MODPATH"/system/overlay/
+    cp -rf "$MODPATH"/IMQDS/* "$MODPATH"/system/overlay/
     elif [ -d /system/vendor/overlay/NavigationBarModeGestural ]; then
     mkdir -p "$MODPATH"/system/vendor/overlay
-    cp -rf "$MODPATH"/IMDS/* "$MODPATH"/system/vendor/overlay/
+    cp -rf "$MODPATH"/IMQDS/* "$MODPATH"/system/vendor/overlay/
     else
     mkdir -p "$MODPATH"/system/product/overlay
-    cp -rf "$MODPATH"/IMDS/* "$MODPATH"/system/product/overlay/
+    cp -rf "$MODPATH"/IMQDS/* "$MODPATH"/system/product/overlay/
     fi
 fi
     
