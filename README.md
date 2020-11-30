@@ -42,7 +42,7 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 3. Enjoy!
 
 ## Special thanks
-- [Rhyse Simpson](https://t.me/Skittles9823) for his help with module installer script 
+- [Rhyse Simpson](https://t.me/Skittles9823) for his help with the initial installer script 
 
 - [Nebulart](https://t.me/nebulart) for the banner
 
