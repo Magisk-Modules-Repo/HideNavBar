@@ -5,7 +5,7 @@
 
 ui_print "   ----- Fullscreen/Immersive Gestures ------"
 ui_print " "
-ui_print "   Choose your gestures Mod   "
+ui_print "   Choose your gestures moce   "
 ui_print " "
 ui_print "   Vol+ = Fullscreen, Vol- = Immersive"
 if $VKSEL; then
