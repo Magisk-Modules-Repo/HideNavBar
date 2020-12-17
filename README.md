@@ -94,9 +94,9 @@ Hide Pill (for immersive mode): Allows you to have a near fullscreen experience 
 
 Small keyboard bar (for immersive mode): Allows you to have less spacing underneath the keyboard
 
-### V7.2
+### v7.2
 - Fix fullscreen gestures installation (apologies for the inconvenience)
-### V8.0 
+### v8.0 
 - Allow changing gesture sensitivity (for users who may prefer Android's default gesture sensitivity)
-### V8.1
+### v8.1
 - Fix for Immersive+default sensitivity not getting properly installed
