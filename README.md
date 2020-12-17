@@ -56,7 +56,7 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 
 ## Disclaimer
 - This module won't disable the navbar, so if you want to use Fluid NG on Android 11 then this module isn't for you
-- This module won't work on devices running MIUI (may work on MIUI builds based on Android 10 but that's untested)
+- This module won't work on devices running MIUI
 - Hide pill in immersive mode currently doesn't work on LG devices (this is being investigated)
 
 ## Changelog
@@ -90,9 +90,9 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 ### v7.1 
 - Added new options during install
 
-Hide Pill (for immersive mode): Allows you to have a near fullscreen experience while still keeping the spacing underneath the keyboard
+- Hide Pill (for immersive mode): Allows you to have a near fullscreen experience while still keeping the spacing underneath the keyboard
 
-Small keyboard bar (for immersive mode): Allows you to have less spacing underneath the keyboard
+- Small keyboard bar (for immersive mode): Allows you to have less spacing underneath the keyboard
 
 ### v7.2
 - Fix fullscreen gestures installation (apologies for the inconvenience)
