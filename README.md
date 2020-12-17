@@ -81,13 +81,13 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 - Fix Android 11 support
 ### V6.5
 - Lowered gesture area to 18dp to reduce conflicts with apps
-### V6.6
+### v6.6
 - Hotfix for Android 11 beta
-#### V6.7 
+### v6.7 
 - Fix gesture option disappearing on later Android 11 builds
-### V7.0
+### v7.0
 - Switch to the MMT-EX template and added immersive gestures by [samchugit](https://github.com/samchugit/Immersive_Gestural_Nav_Bar) as an option 
-### V7.1 
+### v7.1 
 - Added new options during install
 
 Hide Pill (for immersive mode): Allows you to have a near fullscreen experience while still keeping the spacing underneath the keyboard
