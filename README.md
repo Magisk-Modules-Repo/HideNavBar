@@ -79,7 +79,7 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 - Add support for Android 11/R (untested as Magisk isn't avaliable for Android R yet)
 ### v6.4
 - Fix Android 11 support
-### V6.5
+### v6.5
 - Lowered gesture area to 18dp to reduce conflicts with apps
 ### v6.6
 - Hotfix for Android 11 beta
