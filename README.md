@@ -49,7 +49,16 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 3. Reboot.
 4. Enjoy!
 
-## Special thanks
+## Disclaimer
+- This module won't disable the navbar, so if you want to use Fluid NG on Android 11 then this module isn't for you
+- This module won't work on devices running MIUI
+
+## Known Issues 
+- Hide pill in immersive mode currently doesn't work on LG devices (this is being investigated)
+- If you're experiencing issues related to GCam after installing the module there is currently nothing i can do (that's outside my control)
+- Navbar coloring is broken on Android 11 (no fix for it is available atm)
+
+## Credits
 - [Rhyse Simpson](https://t.me/Skittles9823) for his help with the initial installer script 
 
 - [Nebulart](https://t.me/nebulart) for the banner
@@ -61,15 +70,6 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 ## Links
 - [GitHub](https://github.com/Magisk-Modules-Repo/HideNavBar) 
 - [Telegram](https://t.me/DanGLES3)
-
-## Disclaimer
-- This module won't disable the navbar, so if you want to use Fluid NG on Android 11 then this module isn't for you
-- This module won't work on devices running MIUI
-
-## Known Issues 
-- Hide pill in immersive mode currently doesn't work on LG devices (this is being investigated)
-- If you're experiencing issues related to GCam after installing the module there is currently nothing i can do (that's outside my control)
-- Navbar coloring is broken on Android 11 (no fix for it is available atm)
 
 ## Changelog
 ### v8.1
