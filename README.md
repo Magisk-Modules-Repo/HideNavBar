@@ -63,7 +63,11 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 
 - [Nebulart](https://t.me/nebulart) for the banner
 
-- [samchugit](https://github.com/samchugit) for making the original immersive gestures module
+- [Samchugit](https://github.com/samchugit) for making the original immersive gestures module
+
+- [Zackptg5](https://github.com/Zackptg5) for the MMT-Ex template
+
+- [Topjohnwu](https://github.com/topjohnwu) for making Magisk 
 
 - All Custom ROMs who made my module an official feature in their ROM (AOSIP, Havoc & etc)
 
