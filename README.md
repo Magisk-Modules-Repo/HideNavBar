@@ -10,7 +10,7 @@ This Magisk Module lets you customize the Android 10-11 gestures.
 
 ## Modes
 
-Android Default:
+Android Default
 
 ![](https://i.imgur.com/3GIKuoE.jpg)
 
