@@ -59,7 +59,7 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 - Navbar coloring is broken on Android 11 (no fix for it is available atm)
 
 ## Credits
-- [Rhyse Simpson](https://t.me/Skittles9823) for his help with the initial installer script 
+- [skittles9823](https://github.com/skittles9823) for his help with the initial installer script 
 
 - [Nebulart](https://t.me/nebulart) for the banner
 
