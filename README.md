@@ -7,7 +7,7 @@
 
 ![](https://i.imgur.com/vcXAreJ.png)
 
-This Magisk Module lets you customize the Android 10-11 gestures.
+This Magisk Module lets you customize Android 10-11's gestures.
 
 ## Requirements
 - Android 10-11
@@ -44,9 +44,10 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 ![](https://i.imgur.com/8JrB5uZ.jpg)
 
 ## Installation
-1. Flash this module.
-2. Reboot.
-3. Enjoy!
+1. Flash the module.
+2. Select the desired options (You will be prompted to test the volume keys before choosing the options)
+3. Reboot.
+4. Enjoy!
 
 ## Special thanks
 - [Rhyse Simpson](https://t.me/Skittles9823) for his help with the initial installer script 
