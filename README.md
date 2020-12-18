@@ -1,9 +1,5 @@
 # Fullscreen/Immersive Gesture Mods for Android 10-11
 
-<div align="center">
-  <img src="https://img.shields.io/badge/Version-v8.1-blue"
-</div>
-
 ![](https://i.imgur.com/vcXAreJ.png)
 
 This Magisk Module lets you customize the Android 10-11 gestures.
