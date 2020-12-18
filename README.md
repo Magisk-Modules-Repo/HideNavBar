@@ -8,6 +8,8 @@ This Magisk Module lets you customize the Android 10-11 gestures.
 - Android 10-11
 - Magisk 20+
 
+## Modes
+
 Android Default:
 
 ![](https://i.imgur.com/3GIKuoE.jpg)
