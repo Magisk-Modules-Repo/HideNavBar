@@ -69,7 +69,7 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 
 - [Topjohnwu](https://github.com/topjohnwu) for making Magisk
 
-- [Gnonymous7](https://github.com/Gnonymous7) for some general inspiration to make my module's code/page less ugly, if you want more visual tweaks make sure to check out her module https://github.com/Magisk-Modules-Repo/G-VisualMod
+- [Gnonymous7](https://github.com/Gnonymous7) for some general inspiration to make my module's code/page less ugly, if you want more visual tweaks make sure to check out her module [G-VisualMod](https://github.com/Magisk-Modules-Repo/G-VisualMod)
 
 - All Custom ROMs who made my module an official feature in their ROM (AOSIP, Havoc & etc)
 
