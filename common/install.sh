@@ -22,37 +22,11 @@ else
 fi 
 
 if $FS; then
-    CODENAME=$(getprop ro.system.build.version.release)
-    if [[ "$CODENAME" == "11" ]]; then
-    mkdir -p "$MODPATH"/system/product/overlay
-    cp -rf "$MODPATH"/Mods/R/* "$MODPATH"/system/product/overlay/
-    elif [ -d /system/overlay/NavigationBarModeGestural ]; then
-    mkdir -p "$MODPATH"/system/overlay
-    cp -rf "$MODPATH"/Mods/Q/* "$MODPATH"/system/overlay/
-    elif [ -d /system/vendor/overlay/NavigationBarModeGestural ]; then
-    mkdir -p "$MODPATH"/system/vendor/overlay
-    cp -rf "$MODPATH"/Mods/Q/* "$MODPATH"/system/vendor/overlay/
-    else
-    mkdir -p "$MODPATH"/system/product/overlay
-    cp -rf "$MODPATH"/Mods/Q/* "$MODPATH"/system/product/overlay/
-    fi
+    VAR=Q
 fi
 
 if $IM; then
-    CODENAME=$(getprop ro.system.build.version.release)
-    if [[ "$CODENAME" == "11" ]]; then
-    mkdir -p "$MODPATH"/system/product/overlay
-    cp -rf "$MODPATH"/Mods/IMR/* "$MODPATH"/system/product/overlay/
-    elif [ -d /system/overlay/NavigationBarModeGestural ]; then
-    mkdir -p "$MODPATH"/system/overlay
-    cp -rf "$MODPATH"/Mods/IMQ/* "$MODPATH"/system/overlay/
-    elif [ -d /system/vendor/overlay/NavigationBarModeGestural ]; then
-    mkdir -p "$MODPATH"/system/vendor/overlay
-    cp -rf "$MODPATH"/Mods/IMQ/* "$MODPATH"/system/vendor/overlay/
-    else
-    mkdir -p "$MODPATH"/system/product/overlay
-    cp -rf "$MODPATH"/Mods/IMQ/* "$MODPATH"/system/product/overlay/
-    fi
+    VAR=IMQ
 fi
 
 if $IM; then
@@ -91,16 +65,7 @@ if $IM; then
 fi
 
 if $IMQS; then
-     if [ -d /system/overlay/NavigationBarModeGestural ]; then
-    mkdir -p "$MODPATH"/system/overlay
-    cp -rf "$MODPATH"/Mods/IMQS/* "$MODPATH"/system/overlay/
-    elif [ -d /system/vendor/overlay/NavigationBarModeGestural ]; then
-    mkdir -p "$MODPATH"/system/vendor/overlay
-    cp -rf "$MODPATH"/Mods/IMQS/* "$MODPATH"/system/vendor/overlay/
-    else
-    mkdir -p "$MODPATH"/system/product/overlay
-    cp -rf "$MODPATH"/Mods/IMQS/* "$MODPATH"/system/product/overlay/
-    fi
+    VAR=IMQS
 fi
 
 if $IM; then
@@ -115,29 +80,11 @@ if $IM; then
 fi
 
 if $IMDS; then
-    if [ -d /system/overlay/NavigationBarModeGestural ]; then
-    mkdir -p "$MODPATH"/system/overlay
-    cp -rf "$MODPATH"/Mods/IMQDS/* "$MODPATH"/system/overlay/
-    elif [ -d /system/vendor/overlay/NavigationBarModeGestural ]; then
-    mkdir -p "$MODPATH"/system/vendor/overlay
-    cp -rf "$MODPATH"/Mods/IMQDS/* "$MODPATH"/system/vendor/overlay/
-    else
-    mkdir -p "$MODPATH"/system/product/overlay
-    cp -rf "$MODPATH"/Mods/IMQDS/* "$MODPATH"/system/product/overlay/
-    fi
+    VAR=IMQDS
 fi
     
 if "$IMDS" && "$IMQS"; then
-    if [ -d /system/overlay/NavigationBarModeGestural ]; then
-    mkdir -p "$MODPATH"/system/overlay
-    cp -rf "$MODPATH"/Mods/IMQSDS/* "$MODPATH"/system/overlay/
-    elif [ -d /system/vendor/overlay/NavigationBarModeGestural ]; then
-    mkdir -p "$MODPATH"/system/vendor/overlay
-    cp -rf "$MODPATH"/Mods/IMQSDS/* "$MODPATH"/system/vendor/overlay/
-    else
-    mkdir -p "$MODPATH"/system/product/overlay
-    cp -rf "$MODPATH"/Mods/IMQSDS/* "$MODPATH"/system/product/overlay/
-    fi
+    VAR=IMQSDS
 fi
     
 if $FS; then
@@ -152,21 +99,22 @@ if $FS; then
 fi
 
 if $FSDS; then
-    CODENAME=$(getprop ro.system.build.version.release)
-    if [[ "$CODENAME" == "11" ]]; then
-    mkdir -p "$MODPATH"/system/product/overlay
-    cp -rf "$MODPATH"/Mods/RDS/* "$MODPATH"/system/product/overlay/
-    elif [ -d /system/overlay/NavigationBarModeGestural ]; then
-    mkdir -p "$MODPATH"/system/overlay
-    cp -rf "$MODPATH"/Mods/QDS/* "$MODPATH"/system/overlay/
-    elif [ -d /system/vendor/overlay/NavigationBarModeGestural ]; then
-    mkdir -p "$MODPATH"/system/vendor/overlay
-    cp -rf "$MODPATH"/Mods/QDS/* "$MODPATH"/system/vendor/overlay/
-    else
-    mkdir -p "$MODPATH"/system/product/overlay
-    cp -rf "$MODPATH"/Mods/QDS/* "$MODPATH"/system/product/overlay/
-    fi
+    VAR=QDS
 fi
 
+CODENAME=$(getprop ro.system.build.version.release)
+if [[ "$CODENAME" == "11" ]]; then
+mkdir -p "$MODPATH"/system/product/overlay
+cp -rf "$MODPATH"/Mods/$VAR/* "$MODPATH"/system/product/overlay/
+elif [ -d /system/overlay/NavigationBarModeGestural ]; then
+mkdir -p "$MODPATH"/system/overlay
+cp -rf "$MODPATH"/Mods/$VAR/* "$MODPATH"/system/overlay/
+elif [ -d /system/vendor/overlay/NavigationBarModeGestural ]; then
+mkdir -p "$MODPATH"/system/vendor/overlay
+cp -rf "$MODPATH"/Mods/$VAR/* "$MODPATH"/system/vendor/overlay/
+else
+mkdir -p "$MODPATH"/system/product/overlay
+cp -rf "$MODPATH"/Mods/"$VAR"/* "$MODPATH"/system/product/overlay/
+fi
 
 rm -rf "$MODPATH"/Mods
