@@ -1,7 +1,7 @@
 # Fullscreen/Immersive Gesture Mods for Android 10-11
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Version-v8.1-blue"
+  <img src="https://img.shields.io/badge/Version-8.2-blue"
   alt="Version" />
 </div>
 
