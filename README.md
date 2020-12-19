@@ -78,6 +78,11 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 - [Telegram](https://t.me/DanGLES3)
 
 ## Changelog
+### v8.2
+- Fix immersive sensitivity options
+- Clean up installer code significantly 
+
+(if you notice any issues on Android 11 due to the new install logic report to me immediatelly)
 ### v8.1
 - Fix for Immersive+default sensitivity not getting properly installed
 ### v8.0
