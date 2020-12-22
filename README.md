@@ -78,6 +78,9 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 - [Telegram](https://t.me/DanGLES3)
 
 ## Changelog
+### v8.3
+- Remove Android 11 specific overlays (no longer necessary)
+- Clean up install code even more
 ### v8.2
 - Fix immersive sensitivity options
 - Clean up installer code significantly 
