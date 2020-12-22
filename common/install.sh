@@ -76,7 +76,7 @@ fi
 CODENAME=$(getprop ro.system.build.version.release)
 if [[ "$CODENAME" == "11" ]]; then
 mkdir -p "$MODPATH"/system/product/overlay
-cp -rf "$MODPATH"/Mods/$VAR/* "$MODPATH"/system/product/overlay/
+cp -rf "$MODPATH"/Mods/"$VAR"/* "$MODPATH"/Mods/"$VAR3"/* "$MODPATH"/system/product/overlay/
 elif [ -d /system/overlay/NavigationBarModeGestural ]; then
 mkdir -p "$MODPATH"/system/overlay
 cp -rf "$MODPATH"/Mods/$VAR/* "$MODPATH"/system/overlay/
