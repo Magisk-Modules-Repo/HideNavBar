@@ -11,7 +11,8 @@ if $VKSEL; then
      FS=true
      VAR3=a
 else
-	 IM=true
+     IM=true
+     VAR3=a
 fi 
 
 if [ $FS = true ] ; then
