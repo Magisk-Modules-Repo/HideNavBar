@@ -56,7 +56,8 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 ## Known Issues 
 - Hide pill in immersive mode currently doesn't work on LG devices (this is being investigated)
 - If you're experiencing issues related to GCam after installing the module there is currently nothing i can do (that's outside my control)
-- Navbar coloring is broken on Android 11 (no fix for it is available atm)
+- Navbar coloring is broken on Android 11 (a fix is being investigated)
+- Immersive mode doesn't work Oxygen OS devices (under investigation)
 
 ## Credits
 - [skittles9823](https://github.com/skittles9823) for his help with the initial installer script 
