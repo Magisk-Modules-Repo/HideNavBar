@@ -81,6 +81,7 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 ## Changelog
 ### v8.4
 - Fixed an issue that was causing hide pill to be installed regardless of user preference
+- Cleaner install code (again)
 ### v8.3
 - Remove Android 11 specific overlays (no longer necessary as the standard ones work just fine on 11)
 - Clean up install code even more
