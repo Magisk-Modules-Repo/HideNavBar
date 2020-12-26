@@ -11,8 +11,8 @@ if $VKSEL; then
      FS=true
      VAR3=a
 else
-     IM=true
-     VAR3=a
+	 IM=true
+	 VAR3=a
 fi 
 
 if [ $FS = true ] ; then
@@ -74,19 +74,8 @@ if  [ "$IMDS" ] && [ "$IMQS" = true ] ; then
     VAR=IMQSDS
 fi 
 
-CODENAME=$(getprop ro.system.build.version.release)
-if [[ "$CODENAME" == "11" ]]; then
-mkdir -p "$MODPATH"/system/product/overlay
-cp -rf "$MODPATH"/Mods/"$VAR"/* "$MODPATH"/Mods/"$VAR3"/* "$MODPATH"/system/product/overlay/
-elif [ -d /system/overlay/NavigationBarModeGestural ]; then
-mkdir -p "$MODPATH"/system/overlay
-cp -rf "$MODPATH"/Mods/$VAR/* "$MODPATH"/system/overlay/
-elif [ -d /system/vendor/overlay/NavigationBarModeGestural ]; then
-mkdir -p "$MODPATH"/system/vendor/overlay
-cp -rf "$MODPATH"/Mods/$VAR/* "$MODPATH"/system/vendor/overlay/
-else
-mkdir -p "$MODPATH"/system/product/overlay
-cp -rf "$MODPATH"/Mods/"$VAR"/* "$MODPATH"/Mods/"$VAR3"/* "$MODPATH"/system/product/overlay/
-fi
+OP=$(find /system -type d -iname "navigationbarmodegestural" | cut -d 'N' -f1)
+mkdir -p "$MODPATH""$OP"
+cp -rf "$MODPATH"/Mods/"$VAR"/* "$MODPATH"/Mods/"$VAR3"/* "$MODPATH""$OP"
 
 rm -rf "$MODPATH"/Mods
