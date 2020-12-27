@@ -80,7 +80,7 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 
 ## Changelog
 ### v8.5
-- Revert to old install logic on Android 11 (attempts to bug fix module not installing correctly)
+- Revert to old install logic on Android 11 (attempts to bug fix module not installing correctly on some devices)
 ### v8.4
 - Fixed an issue that was causing hide pill to be installed regardless of user preference
 - Cleaner install code (again)
