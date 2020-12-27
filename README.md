@@ -79,6 +79,8 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 - [Telegram](https://t.me/DanGLES3)
 
 ## Changelog
+### v8.5
+- Revert to old install logic on Android 11 (attempts to bug fix module not installing correctly)
 ### v8.4
 - Fixed an issue that was causing hide pill to be installed regardless of user preference
 - Cleaner install code (again)
