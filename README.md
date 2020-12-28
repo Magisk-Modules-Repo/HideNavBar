@@ -74,6 +74,8 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 - [Telegram](https://t.me/DanGLES3)
 
 ## Changelog
+### v8.6
+- Fix and go back to using the new install logic on Android 11
 ### v8.5
 - Revert to old install logic on Android 11 (attempts to bug fix module not installing correctly on some devices)
 ### v8.4
