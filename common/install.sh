@@ -74,15 +74,9 @@ if  [ "$IMDS" ] && [ "$IMQS" = true ] ; then
     VAR=IMQSDS
 fi 
 
-CODENAME=$(getprop ro.system.build.version.release)
-if [[ "$CODENAME" == "11" ]]; then
-mkdir -p "$MODPATH"/system/product/overlay
-cp -rf "$MODPATH"/Mods/$VAR/* "$MODPATH"/Mods/"$VAR3"/* "$MODPATH"/system/product/overlay/
-else
-OP=$(find /system -type d -iname "navigationbarmodegestural" | cut -d 'N' -f1)
-mkdir -p "$MODPATH""$OP"
-cp -rf "$MODPATH"/Mods/"$VAR"/* "$MODPATH"/Mods/"$VAR3"/* "$MODPATH""$OP"
-fi
+OP=$(find /system/overlay /product/overlay /vendor/overlay -type d -iname "navigationbarmodegestural" | cut -d 'N' -f1)
+mkdir -p "$MODPATH"/system"$OP"
+cp -rf "$MODPATH"/Mods/"$VAR"/* "$MODPATH"/Mods/"$VAR3"/* "$MODPATH"/system"$OP"
+mv -f  "$MODPATH"/system/system/* "$MODPATH"/system/
 
 rm -rf "$MODPATH"/Mods
-rm -r /data/resource-cache/*
