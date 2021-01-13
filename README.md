@@ -74,6 +74,9 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 - [Telegram](https://t.me/DanGLES3)
 
 ## Changelog
+### v8.8
+- Update Volume selector
+- Revised install logic
 ### v8.6
 - Fix and go back to using the new install logic on Android 11
 ### v8.5
