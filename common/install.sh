@@ -8,51 +8,34 @@ ui_print "   Choose your gestures mode   "
 ui_print " "
 ui_print "   Vol+ = Fullscreen, Vol- = Immersive"
 if $VKSEL; then
-     FS=true
+     VAR=Q
      VAR3=a
+     SS=true
 else
-	 IM=true
-	 VAR3=a
+	 VAR=IMQ
+	 SS=true
 fi 
 
-if [ $FS = true ] ; then
-    VAR=Q
-    SS=true
-fi
-
-if [ $IM = true ] ;  then
-    VAR=IMQ
-    SS=true
-fi
-
-if [ $IM = true ] ; then
+if [ $VAR = IMQ ] ; then
      ui_print "   Hide pill and keep keyboard height/space?  "
      ui_print " "
      ui_print "   Vol+ = Yes , Vol- = No (default) "
      if $VKSEL; then
-     HP=true
+     VAR3=HP
      else
-     HP=false
+     VAR3=a
      fi 
 fi
 
-if [ $HP = true ] ; then
-   VAR3=HP
-fi
-
-if [ $IM = true ] ; then
+if [ $VAR = IMQ ] ; then
      ui_print "   Reduce the size of the keyboard bar?  "
      ui_print " "
      ui_print "   Vol+ = Yes , Vol- = No (default) "
      if $VKSEL; then
-     IMQS=true
+     VAR=IMQS
      else
-     IMQS=false
+     VAR=$VAR
      fi 
-fi
-
-if [ $IMQS = true ]; then
-    VAR=IMQS
 fi
 
 if [ $SS = true ] ; then
@@ -62,17 +45,9 @@ if [ $SS = true ] ; then
      if $VKSEL; then
      GIDS=false
      else
-     GIDS=true
+     VAR="$VAR"DS
      fi
 fi
-
-if "$GIDS"; then
-    VAR="$VAR"DS
-fi
-    
-if  [ "$IMDS" ] && [ "$IMQS" = true ] ; then
-    VAR=IMQSDS
-fi 
 
 OP=$(find /system/overlay /product/overlay /vendor/overlay -type d -iname "navigationbarmodegestural" | cut -d 'N' -f1)
 mkdir -p "$MODPATH"/system"$OP"
