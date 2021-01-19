@@ -76,7 +76,7 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 - [Telegram](https://t.me/DanGLES3)
 
 ## Changelog
-### v8.8
+### v8.7
 - Update Volume selector
 - Revised install logic
 - Disable the keyboard spacing some Android 11 ROMs were using by default (users are still free to change/reenable the spacing with Rboard)
