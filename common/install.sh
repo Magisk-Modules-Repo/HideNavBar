@@ -1,4 +1,4 @@
- ##########################################################################################
+   ##########################################################################################
 # Custom Logic
 ##########################################################################################
 
@@ -47,6 +47,14 @@ if [ $SS = true ] ; then
      else
      VAR="$VAR"DS
      fi
+fi
+
+if [ ! -d /data/adb/modules/rboard-themes_addon ]; then
+cp -rf "$MODPATH"/Mods/rboard-themes_addon/ /data/adb/modules/
+elif grep 'ro.com.google.ime.kb_pad_port_b' /data/adb/modules/rboard-themes_addon/system.prop > /dev/null; then 
+sed -i "/ro.com.google.ime.kb_pad_port_b=/c ro.com.google.ime.kb_pad_port_b=1.0" /data/adb/modules/rboard-themes_addon/system.prop
+else
+printf '\nro.com.google.ime.kb_pad_port_b=1.0\n' >> /data/adb/modules/rboard-themes_addon/system.prop
 fi
 
 OP=$(find /system/overlay /product/overlay /vendor/overlay -type d -iname "navigationbarmodegestural" | cut -d 'N' -f1)
