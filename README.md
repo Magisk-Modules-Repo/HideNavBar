@@ -65,6 +65,8 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 
 - [Topjohnwu](https://github.com/topjohnwu) for making Magisk
 
+- [RKBDI](https://t.me/RKBDI) for the Rboard module
+
 - [Gnonymous7](https://github.com/Gnonymous7) for some general inspiration to make my module's code/page less ugly, if you want more visual tweaks make sure to check out her module [G-VisualMod](https://github.com/Magisk-Modules-Repo/G-VisualMod)
 
 - All Custom ROMs who made my module an official feature in their ROM (AOSIP, Havoc & etc)
@@ -74,6 +76,10 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 - [Telegram](https://t.me/DanGLES3)
 
 ## Changelog
+### v8.7
+- Update Volume selector
+- Revised install logic
+- Disable the Gboard spacing some Android 11 ROMs were using by default (users are still free to change/reenable the spacing with Rboard as I've made sure my code won't overlap with it)
 ### v8.6
 - Fix and go back to using the new install logic on Android 11
 ### v8.5
