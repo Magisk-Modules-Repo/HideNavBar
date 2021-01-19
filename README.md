@@ -79,7 +79,7 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 ### v8.7
 - Update Volume selector
 - Revised install logic
-- Disable the Gboard spacing some Android 11 ROMs were using by default (users are still free to change/reenable the spacing with Rboard)
+- Disable the Gboard spacing some Android 11 ROMs were using by default (users are still free to change/reenable the spacing with Rboard as I've made sure my code won't overlap with it)
 ### v8.6
 - Fix and go back to using the new install logic on Android 11
 ### v8.5
