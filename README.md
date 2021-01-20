@@ -39,9 +39,9 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 ![](https://i.imgur.com/8JrB5uZ.jpg)
 
 ## Installation
-1. Flash the module.
-2. Select the desired options (You will be prompted to test the volume keys before choosing the options)
-3. Reboot.
+1. Flash the module
+2. Select the desired options
+3. Reboot
 4. Enjoy!
 
 ## Disclaimer
@@ -50,11 +50,11 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 
 ## Known Issues 
 - Hide pill in immersive mode currently doesn't work on LG devices (this is being investigated)
-- If you're experiencing issues related to GCam after installing the module there is currently nothing i can do (that's outside my control)
-- Navbar coloring is broken on Android 11 (a fix is being investigated)
-- Immersive mode doesn't work Oxygen OS devices (under investigation)
+- Any issues related to GCam after installing the module are outside my control
+- Navbar coloring is broken on Android 11 (currently no reliable fix available)
+- Immersive mode doesn't work Oxygen OS devices (currently unfixable)
 
-## Credits
+## Special Thanks
 - [skittles9823](https://github.com/skittles9823) for his help with the initial installer script 
 
 - [Nebulart](https://t.me/nebulart) for the banner
