@@ -40,7 +40,7 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 
 ## Installation
 1. Flash the module
-2. Select the desired options
+2. Select the desired options on the volume selector
 3. Reboot
 4. Enjoy!
 
@@ -55,7 +55,7 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 - Immersive mode doesn't work Oxygen OS devices (currently unfixable)
 
 ## Special Thanks
-- [skittles9823](https://github.com/skittles9823) for his help with the initial installer script 
+- [skittles9823](https://github.com/skittles9823) for his help with the initial install script 
 
 - [Nebulart](https://t.me/nebulart) for the banner
 
@@ -67,7 +67,7 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 
 - [RKBDI](https://t.me/RKBDI) for the Rboard module
 
-- [Gnonymous7](https://github.com/Gnonymous7) for some general inspiration to make my module's code/page less ugly, if you want more visual tweaks make sure to check out her module [G-VisualMod](https://github.com/Magisk-Modules-Repo/G-VisualMod)
+- [Gnonymous7](https://github.com/Gnonymous7) for some general inspiration, if you want more visual tweaks make sure to check out her module [G-VisualMod](https://github.com/Magisk-Modules-Repo/G-VisualMod)
 
 - All Custom ROMs who made my module an official feature in their ROM (AOSIP, Havoc & etc)
 
