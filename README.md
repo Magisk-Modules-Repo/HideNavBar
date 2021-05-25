@@ -76,6 +76,8 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 - [Telegram](https://t.me/DanGLES3)
 
 ## Changelog
+### v9.0
+- Allow disabling back gesture on A11-12 (Left only for side menus and Left & Right for gesture apps)
 ### v8.8
 - Update MAXAPI to 31 to support the eventual stable A12 release 
 ### v8.7
