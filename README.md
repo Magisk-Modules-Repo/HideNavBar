@@ -1,4 +1,4 @@
-# Fullscreen/Immersive Gesture Mods for Android 10-11
+# Fullscreen/Immersive Gesture Mods for Android 10-12
 
 ![](https://i.imgur.com/vcXAreJ.png)
 
