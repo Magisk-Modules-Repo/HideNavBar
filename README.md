@@ -73,7 +73,7 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 
 ## Links
 - [GitHub](https://github.com/Magisk-Modules-Repo/HideNavBar) 
-- [Telegram](https://t.me/DanGLES3)
+- [Telegram](https://t.me/DanMGK)
 
 ## Changelog
 ### v9.0
