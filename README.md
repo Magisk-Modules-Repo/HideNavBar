@@ -5,7 +5,7 @@
 This Magisk Module lets you customize Android 10-12's gestures.
 
 ## Requirements
-- Android 10-11
+- Android 10-12
 - Magisk 20+
 
 ## Modes
@@ -45,14 +45,14 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 4. Enjoy!
 
 ## Disclaimer
-- This module won't disable the navbar, so if you want to use Fluid NG on Android 11 then this module isn't for you
+- This module won't disable the navbar, so if you want to use Fluid NG on Android 11-12 then this module isn't for you
 - This module won't work on devices running MIUI
 
 ## Known Issues 
-- Hide pill in immersive mode currently doesn't work on LG devices (this is being investigated)
-- Any issues related to GCam after installing the module are outside my control
+- Hide pill in immersive mode currently doesn't work on LG devices
+- Any issues related to GCam after installing the module are outside my control 
 - Navbar coloring is broken on Android 11 (currently no reliable fix available)
-- Immersive mode doesn't work Oxygen OS devices (currently unfixable)
+- Immersive mode doesn't work Oxygen OS devices (unfixable)
 
 ## Special Thanks
 - [skittles9823](https://github.com/skittles9823) for his help with the initial install script 
@@ -76,6 +76,8 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 - [Telegram](https://t.me/DanGLES3)
 
 ## Changelog
+### v8.8
+- Update MAXAPI to 31 to support the eventual stable A12 release 
 ### v8.7
 - Update Volume selector
 - Revised install logic
