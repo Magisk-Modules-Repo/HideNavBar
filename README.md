@@ -2,7 +2,7 @@
 
 ![](https://i.imgur.com/vcXAreJ.png)
 
-This Magisk Module lets you customize Android 10-11's gestures.
+This Magisk Module lets you customize Android 10-12's gestures.
 
 ## Requirements
 - Android 10-11
