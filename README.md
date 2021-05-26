@@ -76,6 +76,8 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 - [Telegram](https://t.me/DanMGK)
 
 ## Changelog
+### v9.2
+- Reenable back gestures on NO (on the whether to disable back gestures or not) option 
 ### v9.1
 - Reenable back gesture on uninstall (if user is unable to change the device's back gesture sensitivy from settings) 
 ### v9.0
