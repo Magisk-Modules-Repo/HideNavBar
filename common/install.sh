@@ -57,6 +57,8 @@ if [ $API -ge 30 ] ; then
      DBG=true
      else
      DBG=false
+     settings delete secure back_gesture_inset_scale_left
+     settings delete secure back_gesture_inset_scale_right
      fi
 fi     
 
