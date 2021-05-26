@@ -77,7 +77,7 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 
 ## Changelog
 ### v9.1
-- Reenable back gesture on install (if user is unable to change their device's back gesture sensitivy from their ROM) 
+- Reenable back gesture on uninstall (if user is unable to change the device's back gesture sensitivy from settings) 
 ### v9.0
 - Allow disabling back gesture on A11-12 (Left only for side menus and Left & Right for gesture apps)
 ### v8.8
