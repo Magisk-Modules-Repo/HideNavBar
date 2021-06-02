@@ -76,6 +76,9 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 - [Telegram](https://t.me/DanMGK)
 
 ## Changelog
+### v9.3
+- Updated Volume selector (from MMT-EX), should resolve install issues on some devices
+- Increased the timeout to 10s to give users time to read the options
 ### v9.2
 - Reenable back gestures on NO (on the whether to disable back gestures or not) option 
 ### v9.1
