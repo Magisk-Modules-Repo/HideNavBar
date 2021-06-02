@@ -1,6 +1,6 @@
 id=HideNavBar
 name=Fullscreen/Immersive Gestures (Q-S)
-version=v9.3
-versionCode=28
+version=v9.3-hotfix
+versionCode=29
 author=DanGLES3
 description=Customize Android 10-12's navigation gestures 
