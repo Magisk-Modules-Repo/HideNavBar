@@ -4,7 +4,7 @@ chmod -R 0755 $MODPATH/common/addon/Volume-Key-Selector/tools
 chooseport_legacy() {
   # Keycheck binary by someone755 @Github, idea for code below by Zappo @xda-developers
   # Calling it first time detects previous input. Calling it second time will do what we want
-  [ "$1" ] && local delay=$1 || local delay=3
+  [ "$1" ] && local delay=$1 || local delay=10
   local error=false
   while true; do
     timeout 0 $MODPATH/common/addon/Volume-Key-Selector/tools/$ARCH32/keycheck
