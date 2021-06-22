@@ -77,8 +77,7 @@ fi
 if [ $DBG = true ] ; then
     ui_print " "
     ui_print "   To reenable the back gestures  "
-    ui_print "   adjust the back sensitivity "
-    ui_print "   from your phone's gesture settings "
+    ui_print "   choose no to disabling them "
     ui_print " "
 fi    
 
