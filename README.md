@@ -8,6 +8,18 @@ This Magisk Module lets you customize Android 10-12's gestures.
 - Android 10-12
 - Magisk 20+
 
+## Installation 
+1. Flash the module
+2. Select the desired options on the volume selector
+3. Reboot
+4. Enjoy!
+
+## Disclaimer
+- This module won't disable the navbar, so if you want to use Fluid NG on Android 11-12 then this module isn't for you
+- Any option not working is due to incompatibility with your current ROM (there's little i can do about it)
+- Any issues related to GCam after installing the module are outside my control 
+- Automatic navbar coloring doesn't work on Android 11+
+
 ## Modes
 
 Android Default
@@ -38,22 +50,6 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 
 ![](https://i.imgur.com/8JrB5uZ.jpg)
 
-## Installation
-1. Flash the module
-2. Select the desired options on the volume selector
-3. Reboot
-4. Enjoy!
-
-## Disclaimer
-- This module won't disable the navbar, so if you want to use Fluid NG on Android 11-12 then this module isn't for you
-- This module won't work on devices running MIUI
-
-## Known Issues 
-- Hide pill in immersive mode currently doesn't work on LG devices
-- Any issues related to GCam after installing the module are outside my control 
-- Navbar coloring is broken on Android 11 (currently no reliable fix available)
-- Immersive mode doesn't work Oxygen OS devices (unfixable)
-
 ## Special Thanks
 - [skittles9823](https://github.com/skittles9823) for his help with the initial install script 
 
@@ -74,6 +70,8 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 ## Links
 - [GitHub](https://github.com/Magisk-Modules-Repo/HideNavBar) 
 - [Telegram](https://t.me/@Pannekawaii)
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JMKTPFTBHSM4G)
 
 ## Changelog
 ### v9.3-hotfix
