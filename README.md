@@ -31,12 +31,15 @@ This Magisk Module lets you tweak Android 10-12's gestures.
 
 - Android Default
 
- ![](https://i.imgur.com/3GIKuoE.jpg)
-
+ <p align="center">
+  <img src="https://i.imgur.com/x1zcFTn.jpg">
+</p>
 
 - Fullscreen
 
- <img align="left" src="https://i.imgur.com/q0vTxdR.png">
+ <p align="center">
+  <img src="https://i.imgur.com/q0vTxdR.png">
+</p>
 
 - Immersive (With the Pill + Default Keyboard Spacing)
 
