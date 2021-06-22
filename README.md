@@ -20,6 +20,13 @@ This Magisk Module lets you customize Android 10-12's gestures.
 - Any issues related to GCam after installing the module are outside my control 
 - Automatic navbar coloring doesn't work on Android 11+
 
+## Links
+- [GitHub](https://github.com/Magisk-Modules-Repo/HideNavBar) 
+- [Telegram](https://t.me/@Pannekawaii)
+
+[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JMKTPFTBHSM4G)
+
+
 ## Modes
 
 Android Default
@@ -66,12 +73,6 @@ Immersive (Without the Pill + Small Spacing under the Keyboard)
 - [Gnonymous7](https://github.com/Gnonymous7) for some general inspiration, if you want more visual tweaks make sure to check out her module [G-VisualMod](https://github.com/Magisk-Modules-Repo/G-VisualMod)
 
 - All Custom ROMs who made my module an official feature in their ROM (AOSIP, Havoc & etc)
-
-## Links
-- [GitHub](https://github.com/Magisk-Modules-Repo/HideNavBar) 
-- [Telegram](https://t.me/@Pannekawaii)
-
-[![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JMKTPFTBHSM4G)
 
 ## Changelog
 ### v9.3-hotfix
