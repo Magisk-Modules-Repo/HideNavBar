@@ -85,6 +85,7 @@ This Magisk Module lets you tweak Android 10-12's gestures.
   <img src="https://i.imgur.com/8JrB5uZ.jpg">
 </p>
 
+
 - Additionally back gestures can be disabled on Android 11-12 for either left side only (to access side menus on apps) or both sides (if one wishes to remap the back gestures with other apps)
 
 ## Special Thanks
