@@ -1,8 +1,8 @@
-# Fullscreen/Immersive Gesture Mods for Android 10-12
+# Fullscreen/Immersive Gesture Tweaks for Android 10-12
 
 ![](https://i.imgur.com/vcXAreJ.png)
 
-This Magisk Module lets you customize Android 10-12's gestures.
+This Magisk Module lets you tweak Android 10-12's gestures.
 
 ## Requirements
 - Android 10-12
