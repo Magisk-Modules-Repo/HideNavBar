@@ -27,35 +27,50 @@ This Magisk Module lets you tweak Android 10-12's gestures.
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JMKTPFTBHSM4G)
 
 
-## Modes
+## Options
 
-Android Default
+- Android Default
 
-![](https://i.imgur.com/3GIKuoE.jpg)
+ ![](https://i.imgur.com/3GIKuoE.jpg)
 
-Fullscreen
 
-![](https://i.imgur.com/q0vTxdR.png)
+- Fullscreen
 
-Immersive (With the Pill + Default Spacing under the Keyboard)
+ <img align="left" src="https://i.imgur.com/q0vTxdR.png">
 
-![](https://i.imgur.com/x1zcFTn.jpg)
+- Immersive (With the Pill + Default Keyboard Spacing)
 
-![](https://i.imgur.com/ZPdYrom.jpg)
+ <p align="center">
+  <img src="https://i.imgur.com/x1zcFTn.jpg">
+</p>
 
-Immersive (With the Pill + Small Spacing under the Keyboard)
+  <p align="center">
+  <img src="https://i.imgur.com/ZPdYrom.jpg">
+</p>
 
-![](https://i.imgur.com/siUBxhY.jpg)
+- Immersive (With the Pill + Small Keyboard Spacing)
 
-Immersive (Without the Pill + Default Spacing under the Keyboard)
+  <p align="center">
+  <img src="https://i.imgur.com/siUBxhY.jpg">
+</p>
 
-![](https://i.imgur.com/q0vTxdR.png)
+- Immersive (Without the Pill + Default Keyboard Spacing)
 
-![](https://i.imgur.com/FpdqBfb.jpg)
+  <p align="center">
+  <img src="https://i.imgur.com/q0vTxdR.png">
+</p>
 
-Immersive (Without the Pill + Small Spacing under the Keyboard)
+  <p align="center">
+  <img src="https://i.imgur.com/FpdqBfb.jpg">
+</p>
 
-![](https://i.imgur.com/8JrB5uZ.jpg)
+- Immersive (Without the Pill + Small Spacing under the Keyboard)
+
+  <p align="center">
+  <img src="https://i.imgur.com/8JrB5uZ.jpg">
+</p>
+
+- Additionally back gestures can be disabled on Android 11-12 for either left side only (to access side menus on apps) or both sides (if one wishes to remap the back gestures with other apps)
 
 ## Special Thanks
 - [skittles9823](https://github.com/skittles9823) for his help with the initial install script 
