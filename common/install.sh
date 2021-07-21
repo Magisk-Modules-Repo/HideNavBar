@@ -49,6 +49,17 @@ if [ $SS = true ] ; then
      fi
 fi
 
+if [ "$API" -eq 29 ] && [ "$VAR" = Q ] ; then
+     ui_print "   Wish to disable the back gesture?  "
+     ui_print " "
+     ui_print "   Vol+ = Yes , Vol- = No "
+     if $VKSEL; then
+     cp -rf "$MODPATH"/Mods/DBGQ/* "$MODPATH"
+     else
+     DBG=false
+     fi
+fi
+
 if [ $API -ge 30 ] ; then
      ui_print "   Wish to disable the back gesture?  "
      ui_print " "
