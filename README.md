@@ -94,6 +94,8 @@ This Magisk Module lets you tweak Android 10-12's gestures.
 - All Custom ROMs who made my module an official feature in their ROM (AOSIP, Havoc & etc)
 
 ## Changelog
+### v9.4
+- Allow disabling back gesture also on Android 10 (due to way A10 handles the back gesture it's only possible to disable them completely and on fullscreen mode only, if you have Xposed on A10 and wishes to disable only the left back gesture use this Xposed module https://github.com/kuba2k2/NoLeftBackGesture/releases/tag/v1.0)
 ### v9.3-hotfix
 - Fix install (sorry for the inconvenience)
 ### v9.3
