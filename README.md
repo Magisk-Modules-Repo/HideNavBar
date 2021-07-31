@@ -89,7 +89,7 @@ This Magisk Module lets you tweak Android 10-12's gestures.
 
 - [RKBDI](https://t.me/RKBDI) for the Rboard module
 
-- [Gnonymous7](https://github.com/Gnonymous7) for some general inspiration, if you want more visual tweaks make sure to check out her module [G-VisualMod](https://github.com/Magisk-Modules-Repo/G-VisualMod)
+- [Gnonymous7](https://github.com/Gnonymous7) for some general inspiration, if you want more visual tweaks make sure to check out their module [G-VisualMod](https://github.com/Magisk-Modules-Repo/G-VisualMod)
 
 - All Custom ROMs who made my module an official feature in their ROM (AOSIP, Havoc & etc)
 
