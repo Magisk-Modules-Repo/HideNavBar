@@ -34,4 +34,9 @@ jobs:
       with:
           name: Release ZIP
           path: ./release.zip
+    - uses: actions/checkout@v2
+    - uses: ncipollo/release-action@v1
+      with:
+        artifacts: "release.zip,foo/*.txt"
+        token: ${{ secrets.GITHUB_TOKEN }}    
         
