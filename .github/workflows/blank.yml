@@ -33,5 +33,4 @@ jobs:
       uses: actions/upload-artifact@v2.2.4
       with:
           name: Release ZIP
-          path: /HideNavBar/.github/workflows/release.zip
         
