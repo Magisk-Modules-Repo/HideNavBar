@@ -29,10 +29,9 @@ jobs:
         type: 'zip'
         filename: 'release.zip'
         exclusions: '*.git* /*node_modules/* .editorconfig'
-        
+    - name: Upload artifact    
     - uses: actions/upload-artifact@v2.2.4
-    - name: Upload artifact
       with:
           name: Release ZIP
-          path: HideNavBar/.github/workflows/release.zip
+          path: /HideNavBar/.github/workflows/release.zip
         
