@@ -34,9 +34,11 @@ jobs:
       with:
           name: Release ZIP
           path: ./release.zip
+    - uses: actions/checkout@v2
+       with:
+     fetch-depth: 0
     - uses: ncipollo/release-action@v1
       with:
-        fetch-depth: 0
         artifacts: "release.zip"
         token: ${{ secrets.GITHUB_TOKEN }}    
         
