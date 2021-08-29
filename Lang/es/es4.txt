@@ -1,0 +1,3 @@
+		Elija la sensibilidad del gesto.
+
+		Vol + = Bajo (módulo predeterminado), Vol- = Alto

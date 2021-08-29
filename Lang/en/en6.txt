@@ -1,0 +1,4 @@
+		Which side to disable the back gesture?
+
+		Vol+ = Left only (for side menus) , Vol- = Left and Right (for gesture apps)
+

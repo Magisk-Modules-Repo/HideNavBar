@@ -1,0 +1,3 @@
+		¿Reducir el tamaño de la barra del teclado?
+
+		Vol + = Sí, Vol- = No (predeterminado)
