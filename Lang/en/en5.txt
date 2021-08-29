@@ -1,0 +1,4 @@
+		Wish to disable the back gesture?
+
+		Vol+ = Yes , Vol- = No
+

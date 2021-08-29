@@ -1,0 +1,3 @@
+
+		Para volver a habilitar los gestos de retroceso
+		elige no para deshabilitarlos

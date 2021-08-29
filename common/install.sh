@@ -2,11 +2,15 @@
 # Custom Logic
 ##########################################################################################
 
-ui_print "   ----- Fullscreen/Immersive Gestures ------"
-ui_print " "
-ui_print "   Choose your gestures mode   "
-ui_print " "
-ui_print "   Vol+ = Fullscreen, Vol- = Immersive"
+LANG=$(getprop persist.sys.locale)
+LANGS=${LANG::-3}
+if [ -d $MODPATH/Lang/"$LANGS" ]; then
+    :
+else
+    LANGS=en
+fi
+
+cat $MODPATH/Lang/"$LANGS"/"$LANGS"1.txt
 if $VKSEL; then
      VAR=Q
      VAR3=a
@@ -17,9 +21,7 @@ else
 fi 
 
 if [ $VAR = IMQ ] ; then
-     ui_print "   Hide pill and keep keyboard height/space?  "
-     ui_print " "
-     ui_print "   Vol+ = Yes , Vol- = No (default) "
+     cat $MODPATH/Lang/"$LANGS"/"$LANGS"2.txt
      if $VKSEL; then
      VAR3=HP
      else
@@ -28,9 +30,7 @@ if [ $VAR = IMQ ] ; then
 fi
 
 if [ $VAR = IMQ ] ; then
-     ui_print "   Reduce the size of the keyboard bar?  "
-     ui_print " "
-     ui_print "   Vol+ = Yes , Vol- = No (default) "
+     cat $MODPATH/Lang/"$LANGS"/"$LANGS"3.txt
      if $VKSEL; then
      VAR=IMQS
      else
@@ -39,9 +39,7 @@ if [ $VAR = IMQ ] ; then
 fi
 
 if [ $SS = true ] ; then
-     ui_print "   Pick the gesture sensitivity.  "
-     ui_print " "
-     ui_print "   Vol+ = Low (Module Default) , Vol- = High (Android's Default) "
+     cat $MODPATH/Lang/"$LANGS"/"$LANGS"4.txt
      if $VKSEL; then
      GIDS=false
      else
@@ -50,9 +48,7 @@ if [ $SS = true ] ; then
 fi
 
 if [ "$API" -eq 29 ] && [ "$VAR" = Q ] ; then
-     ui_print "   Wish to disable the back gesture?  "
-     ui_print " "
-     ui_print "   Vol+ = Yes , Vol- = No "
+     cat $MODPATH/Lang/"$LANGS"/"$LANGS"5.txt
      if $VKSEL; then
      cp -rf "$MODPATH"/Mods/DBGQ/* "$MODPATH"
      else
@@ -61,9 +57,7 @@ if [ "$API" -eq 29 ] && [ "$VAR" = Q ] ; then
 fi
 
 if [ $API -ge 30 ] ; then
-     ui_print "   Wish to disable the back gesture?  "
-     ui_print " "
-     ui_print "   Vol+ = Yes , Vol- = No "
+     cat $MODPATH/Lang/"$LANGS"/"$LANGS"5.txt
      if $VKSEL; then
      DBG=true
      else
@@ -74,9 +68,7 @@ if [ $API -ge 30 ] ; then
 fi     
 
 if [ $DBG = true ] ; then
-     ui_print "   Which side to disable the back gesture?  "
-     ui_print " "
-     ui_print "   Vol+ = Left only (for side menus) , Vol- = Left and Right (for gesture apps) "
+     cat $MODPATH/Lang/"$LANGS"/"$LANGS"6.txt
      if $VKSEL; then
      settings put secure back_gesture_inset_scale_left -1
      else
@@ -86,10 +78,7 @@ if [ $DBG = true ] ; then
 fi
 
 if [ $DBG = true ] ; then
-    ui_print " "
-    ui_print "   To reenable the back gestures  "
-    ui_print "   choose no to disabling them "
-    ui_print " "
+    cat $MODPATH/Lang/"$LANGS"/"$LANGS"7.txt
 fi    
 
 
@@ -99,3 +88,4 @@ cp -rf "$MODPATH"/Mods/"$VAR"/* "$MODPATH"/Mods/"$VAR3"/* "$MODPATH"/system"$OP"
 mv -f  "$MODPATH"/system/system/* "$MODPATH"/system/
 
 rm -rf "$MODPATH"/Mods
+rm -rf "$MODPATH"/Lang

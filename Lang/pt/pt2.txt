@@ -1,0 +1,3 @@
+		Esconder a pílula e manter a altura / espaço do teclado?
+
+		Vol + = Sim, Vol- = Não (padrão)

@@ -1,0 +1,5 @@
+		----- Gestos inmersivos / de pantalla completa ------ 
+
+		Elige tu modo de gestos
+
+		Vol + = Pantalla completa, Vol- = Inmersivo

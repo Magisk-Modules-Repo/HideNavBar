@@ -1,0 +1,3 @@
+		De que lado desativar o gesto de voltar?
+
+		Vol + = Esquerda apenas (para menus laterais), Vol- = Esquerda e Direita (para aplicativos de gestos)

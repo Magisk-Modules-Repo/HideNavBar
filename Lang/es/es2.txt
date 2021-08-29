@@ -1,0 +1,3 @@
+		¿Ocultar la pastilla y mantener la altura / el espacio del teclado?
+
+		Vol + = Sí, Vol- = No (predeterminado)
