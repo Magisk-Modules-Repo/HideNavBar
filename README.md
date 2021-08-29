@@ -14,6 +14,9 @@ This Magisk Module lets you tweak Android 10-12's gestures.
 3. Reboot
 4. Enjoy!
 
+### Translation
+ If you wish to have the installer translated to your language send me a text file containing all lines (inside ui_print in common/install.sh) either on Github or my Email
+
 ## Disclaimer
 - This module won't disable the navbar, so if you want to use Fluid NG on Android 11-12 then this module isn't for you
 - Any option not working is due to incompatibility with your current ROM (there's little i can do about it)
@@ -95,6 +98,8 @@ This Magisk Module lets you tweak Android 10-12's gestures.
 - All Custom ROMs who made my module an official feature in their ROM (AOSIP, Havoc & etc)
 
 ## Changelog
+### v9.5
+- Added support for translations in the installer (currently included languages are English, Portuguese and Spanish)
 ### v9.4
 - Allow disabling back gesture also on Android 10 (due to way A10 handles the back gesture it's only possible to disable them completely and on fullscreen mode only, if you have Xposed on A10 and wishes to disable only the left back gesture use this Xposed module https://github.com/kuba2k2/NoLeftBackGesture/releases/tag/v1.0)
 ### v9.3-hotfix
