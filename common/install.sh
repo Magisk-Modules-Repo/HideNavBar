@@ -4,7 +4,7 @@
 
 LANG=$(getprop persist.sys.locale)
 LANGS=${LANG::-3}
-if [ -d $MODPATH/Lang/"$LANGS" ]; then
+if [ -f $MODPATH/Lang/"$LANGS"/$LANGS"1.txt ]; then
     :
 else
     LANGS=en
