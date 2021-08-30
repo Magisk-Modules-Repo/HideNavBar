@@ -2,8 +2,8 @@
 # Custom Logic
 ##########################################################################################
 
-LANG=$(getprop persist.sys.locale)
-LANGS=${LANG::-3}
+LANG=$(settings get system system_locales)
+LANGS=$(echo ${LANG:0:2} )
 if [ -f $MODPATH/Lang/"$LANGS"/"$LANGS"1.txt ]; then
     :
 else

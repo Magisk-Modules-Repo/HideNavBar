@@ -98,6 +98,8 @@ This Magisk Module lets you tweak Android 10-12's gestures.
 - All Custom ROMs who made my module an official feature in their ROM (AOSIP, Havoc & etc)
 
 ## Changelog
+### v9.6
+- More reliable language detection (should prevent issues where the installer shows no text)
 ### v9.5
 - Added support for translations in the installer (currently included languages are English, Portuguese and Spanish)
 ### v9.4
