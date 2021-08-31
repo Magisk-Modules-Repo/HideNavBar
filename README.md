@@ -18,7 +18,6 @@ This Magisk Module lets you tweak Android 10-12's gestures.
  If you wish to have the installer translated to your language send me a text file containing all lines (inside ui_print in common/install.sh) either on Github or my Email
 
 ## Disclaimer
-- This module won't disable the navbar, so if you want to use Fluid NG on Android 11-12 then this module isn't for you
 - Any option not working is due to incompatibility with your current ROM (there's little i can do about it)
 - Any issues related to GCam after installing the module are outside my control 
 - Automatic navbar coloring doesn't work on Android 11+
