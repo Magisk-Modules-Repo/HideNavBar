@@ -2,6 +2,8 @@
 # Custom Logic
 ##########################################################################################
 
+find /data/adb/modules -type d -not -path "*HideNavBar/system*" -iname "*navigationbarmodegestural*" -exec rm -rf {} \; 2>/dev/null 
+
 LANG=$(settings get system system_locales)
 LANGS=$(echo ${LANG:0:2} )
 if [ -f $MODPATH/Lang/"$LANGS"/"$LANGS"1.txt ]; then
