@@ -97,6 +97,8 @@ This Magisk Module lets you tweak Android 10-12's gestures.
 - All Custom ROMs who made my module an official feature in their ROM (AOSIP, Havoc & etc)
 
 ## Changelog
+### V9.7
+- Automatically removes conflicting overlays during install (AKA some theme modules that include gesture overlays for no reason at all)
 ### v9.6
 - More reliable language detection (should prevent issues where the installer shows no text)
 ### v9.5
