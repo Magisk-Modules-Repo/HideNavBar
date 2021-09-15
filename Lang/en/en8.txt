@@ -1,0 +1,3 @@
+		Hide keyboard buttons (Back/Switch keyboard)?
+
+		Vol+ = Yes , Vol- = No

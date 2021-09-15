@@ -1,0 +1,3 @@
+		Ocultar los botones del teclado (Atrás/Cambiar teclado)?
+
+		Vol + = Sí, Vol- = No

@@ -16,6 +16,7 @@ cat $MODPATH/Lang/"$LANGS"/"$LANGS"1.txt
 if $VKSEL; then
      VAR=Q
      VAR3=a
+     VAR4=a
      SS=true
 else
 	 VAR=IMQ
@@ -28,6 +29,15 @@ if [ $VAR = IMQ ] ; then
      VAR3=HP
      else
      VAR3=a
+     fi 
+fi
+
+if [ $VAR = IMQ ] ; then
+     cat $MODPATH/Lang/"$LANGS"/"$LANGS"8.txt
+     if $VKSEL; then
+     VAR4=HKB
+     else
+     VAR4=a
      fi 
 fi
 
@@ -86,7 +96,7 @@ fi
 
 OP=$(find /system/overlay /product/overlay /vendor/overlay -type d -iname "navigationbarmodegestural" | cut -d 'N' -f1)
 mkdir -p "$MODPATH"/system"$OP"
-cp -rf "$MODPATH"/Mods/"$VAR"/* "$MODPATH"/Mods/"$VAR3"/* "$MODPATH"/system"$OP"
+cp -rf "$MODPATH"/Mods/"$VAR"/* "$MODPATH"/Mods/"$VAR3"/* "$MODPATH"/Mods/"$VAR4"/* "$MODPATH"/system"$OP"
 mv -f  "$MODPATH"/system/system/* "$MODPATH"/system/
 
 rm -rf "$MODPATH"/Mods

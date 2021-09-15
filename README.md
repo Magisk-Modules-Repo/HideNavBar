@@ -97,6 +97,8 @@ This Magisk Module lets you tweak Android 10-12's gestures.
 - All Custom ROMs who made my module an official feature in their ROM (AOSIP, Havoc & etc)
 
 ## Changelog
+### v9.9
+- Allow hiding the buttons underneath the keyboard in Immersive mode
 ### v9.8
 - Fix Rboard checking for the keyboard spacing removal feature (apologies to RKBDI for the troubles)
 ### v9.7
