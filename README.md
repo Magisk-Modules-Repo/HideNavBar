@@ -24,7 +24,7 @@ This Magisk Module lets you tweak Android 10-12's gestures.
 
 ## Links
 - [GitHub](https://github.com/Magisk-Modules-Repo/HideNavBar) 
-- [Telegram](https://t.me/PannekoX)
+- [Telegram PM](https://t.me/PannekoX)
 - [Miscellaneous Magisk Modules](https://t.me/danmgk)
 
 [![paypal](https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=JMKTPFTBHSM4G)
