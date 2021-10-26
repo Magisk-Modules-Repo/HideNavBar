@@ -2,8 +2,10 @@
 # Custom Logic
 ##########################################################################################
 
+#Find and delete conflicting overlays
 find /data/adb/modules -type d -not -path "*HideNavBar/system*" -iname "*navigationbarmodegestural*" -exec rm -rf {} \; 2>/dev/null 
 
+#Detect system language for translation 
 LANG=$(settings get system system_locales)
 LANGS=$(echo ${LANG:0:2} )
 if [ -f $MODPATH/Lang/"$LANGS"/"$LANGS"1.txt ]; then
@@ -12,6 +14,8 @@ else
     LANGS=en
 fi
 
+#Standard volume selector stuff but with translations
+#Fullscreen or immersive selection
 cat $MODPATH/Lang/"$LANGS"/"$LANGS"1.txt
 if $VKSEL; then
      VAR=Q
@@ -23,6 +27,7 @@ else
 	 SS=true
 fi 
 
+#Hide pill
 if [ $VAR = IMQ ] ; then
      cat $MODPATH/Lang/"$LANGS"/"$LANGS"2.txt
      if $VKSEL; then
@@ -32,6 +37,7 @@ if [ $VAR = IMQ ] ; then
      fi 
 fi
 
+#Hide keyboard buttons 
 if [ $VAR = IMQ ] ; then
      cat $MODPATH/Lang/"$LANGS"/"$LANGS"8.txt
      if $VKSEL; then
@@ -41,6 +47,7 @@ if [ $VAR = IMQ ] ; then
      fi 
 fi
 
+#Small keyboard bar
 if [ $VAR = IMQ ] ; then
      cat $MODPATH/Lang/"$LANGS"/"$LANGS"3.txt
      if $VKSEL; then
@@ -50,6 +57,7 @@ if [ $VAR = IMQ ] ; then
      fi 
 fi
 
+#Gesture sensitivity 
 if [ $SS = true ] ; then
      cat $MODPATH/Lang/"$LANGS"/"$LANGS"4.txt
      if $VKSEL; then
@@ -59,6 +67,7 @@ if [ $SS = true ] ; then
      fi
 fi
 
+#Disable back gesture on Q
 if [ "$API" -eq 29 ] && [ "$VAR" = Q ] ; then
      cat $MODPATH/Lang/"$LANGS"/"$LANGS"5.txt
      if $VKSEL; then
@@ -68,6 +77,7 @@ if [ "$API" -eq 29 ] && [ "$VAR" = Q ] ; then
      fi
 fi
 
+#Disable back gesture on R+
 if [ $API -ge 30 ] ; then
      cat $MODPATH/Lang/"$LANGS"/"$LANGS"5.txt
      if $VKSEL; then
@@ -79,6 +89,7 @@ if [ $API -ge 30 ] ; then
      fi
 fi     
 
+#Reenable back gesture if no is selected 
 if [ $DBG = true ] ; then
      cat $MODPATH/Lang/"$LANGS"/"$LANGS"6.txt
      if $VKSEL; then
@@ -89,15 +100,17 @@ if [ $DBG = true ] ; then
      fi
 fi
 
+#Back gesture warning 
 if [ $DBG = true ] ; then
     cat $MODPATH/Lang/"$LANGS"/"$LANGS"7.txt
 fi    
 
-
+#Detect original overlay location and install overlays there 
 OP=$(find /system/overlay /product/overlay /vendor/overlay -type d -iname "navigationbarmodegestural" | cut -d 'N' -f1)
 mkdir -p "$MODPATH"/system"$OP"
 cp -rf "$MODPATH"/Mods/"$VAR"/* "$MODPATH"/Mods/"$VAR3"/* "$MODPATH"/Mods/"$VAR4"/* "$MODPATH"/system"$OP"
 mv -f  "$MODPATH"/system/system/* "$MODPATH"/system/
 
+#Junk cleaning
 rm -rf "$MODPATH"/Mods
 rm -rf "$MODPATH"/Lang
