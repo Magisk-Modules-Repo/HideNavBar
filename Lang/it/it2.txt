@@ -1,0 +1,3 @@
+		Nascondi pillola e mantieni altezza/spazio tastiera?
+
+		Vol+ = Sì , Vol- = No (predefinito)
