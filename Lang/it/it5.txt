@@ -1,0 +1,3 @@
+		Disabilitare gesto Indietro?
+
+		Vol+ = Sì , Vol- = No
