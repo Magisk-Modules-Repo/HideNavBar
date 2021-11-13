@@ -1,0 +1,3 @@
+		Nascondere pulsanti tastiera (Indietro/Cambia tastiera)?
+
+		Vol+ = Sì , Vol- = No
