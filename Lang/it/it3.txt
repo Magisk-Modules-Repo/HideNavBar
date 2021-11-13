@@ -1,0 +1,3 @@
+		Ridurre la dimensione della barra della tastiera?
+
+		Vol+ = Sì , Vol- = No (predefinito)
