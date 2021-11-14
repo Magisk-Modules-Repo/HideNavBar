@@ -1,3 +1,4 @@
+
 		Desideri disattivare il gesto indietro?
 
 		Vol+ = Si , Vol- = No

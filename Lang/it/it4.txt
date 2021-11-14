@@ -1,3 +1,4 @@
+
 		Imposta la sensibilità del gesto.
 
 		Vol+ = Bassa (Predefinita del modulo) , Vol- = Alta (Predefinita Android)
