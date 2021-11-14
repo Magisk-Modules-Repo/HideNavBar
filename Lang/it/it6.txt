@@ -1,0 +1,3 @@
+		Da quale lato disabilitare il gesto indietro?
+
+		Vol+ = Solo a sinistra (per menù laterali) , Vol- = Sinistra e Destra (per le app gestuali)
