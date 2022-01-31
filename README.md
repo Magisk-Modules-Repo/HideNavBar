@@ -97,7 +97,7 @@ This Magisk Module lets you tweak Android 10-12's gestures.
 
 ## Changelog
 ### v10.0
-- Added Support for Android 12L, and thank you all very much for your support over these almost 2 years or development
+- Added Support for Android 12L, and thank you all very much for your support over these 2 years of development
 ### v9.9
 - Allow hiding the buttons underneath the keyboard in Immersive mode
 ### v9.8
