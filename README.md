@@ -2,6 +2,8 @@
 
 ![](https://i.imgur.com/vcXAreJ.png)
 
+## DUE TO THE MAGISK REPOSITORY SHUTING DOWN IF YOU WISH TO GET UPDATES FOR MY MODULE YOU'LL NEED TO USE THE FOLLOWING [APP](https://github.com/Fox2Code/FoxMagiskModuleManager/releases) AND MAKE SURE ENABLE THE ALT REPOSITORY
+
 This Magisk Module lets you tweak Android 10-12's gestures.
 
 ## Requirements
