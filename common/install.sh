@@ -8,6 +8,7 @@ chmod +x "$MODPATH"/tools/*
 [ "$($MODPATH/tools/aapt64 v)" ] && AAPT=aapt64
 cp -af "$MODPATH"/tools/$AAPT "$MODPATH"/aapt
 cp -rf "$MODPATH"/Mods/QS/* "$MODPATH"/Mods/Qtmp/
+rm -rf "$MODPATH"/Mods/Q/*
 mkdir -p "$MODPATH"/Mods/Q/NavigationBarModeGestural/
 mkdir -p "$MODPATH"/Mods/Qtmp/
 
