@@ -4,3 +4,4 @@ version=v16.1
 versionCode=47
 author=DanGLES3
 description=Customize Android 10-13's navigation gestures 
+updateJson=https://raw.githubusercontent.com/Magisk-Modules-Repo/HideNavBar/master/update.json
