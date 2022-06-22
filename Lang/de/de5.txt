@@ -1,0 +1,4 @@
+		Wischgeste "Zurück" deaktivieren?
+
+		Vol+ = Ja , Vol- = Nein
+

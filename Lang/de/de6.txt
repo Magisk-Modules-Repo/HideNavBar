@@ -1,0 +1,3 @@
+		Von welcher Seite soll die Zurück-Geste deaktiviert werden?
+
+		Vol+ = Nur Links , Vol- = Links und Rechts 

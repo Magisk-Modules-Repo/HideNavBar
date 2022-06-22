@@ -1,0 +1,4 @@
+		Gestenempfindlichkeit auswählen.
+
+		Vol+ = Niedrig (Moduls Standard) , Vol- = Hoch (Androids Standard)
+
