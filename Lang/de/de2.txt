@@ -1,0 +1,3 @@
+		Indikator ausblenden und Tastaturhöhe/Platz beibehalten?
+
+		Vol+ = Ja , Vol- = Nein (Standard)

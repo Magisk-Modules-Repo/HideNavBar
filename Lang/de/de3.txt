@@ -1,0 +1,3 @@
+		Verkleinern der Tastaturleiste?
+
+		Vol+ = Ja , Vol- = Nein (Standard)

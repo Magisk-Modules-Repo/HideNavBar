@@ -1,0 +1,3 @@
+		Tastaturschaltflächen ausblenden (Zurück/Tastatur umschalten)?
+
+		Vol+ = Ja , Vol- = Nein
