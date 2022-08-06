@@ -1,5 +1,7 @@
 # Fullscreen/Immersive Gesture Tweaks for Android 10-13
 
+THIS REPO HAS BEEN DISCONTINUED AS OF MAGISK'S DISABLING OF THE REPO FEATURE, TO DOWNLOAD MY UPDATED MODULE USE [FOX MODULE MANAGER](https://github.com/Fox2Code/FoxMagiskModuleManager/releases) AS MY MODULE IS NOW BEING DEVELOPED ON THE [ALT-REPO](https://github.com/Magisk-Modules-Alt-Repo/HideNavBar)
+
 ![](https://i.imgur.com/vcXAreJ.png)
 
 This Magisk Module lets you tweak Android 10-13's gestures.
