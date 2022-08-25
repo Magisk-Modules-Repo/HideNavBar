@@ -1,6 +1,6 @@
 # Fullscreen/Immersive Gesture Tweaks for Android 10-13
 
-THIS REPO HAS BEEN DISCONTINUED AS OF MAGISK'S DISABLING OF THE REPO FEATURE, TO DOWNLOAD MY UPDATED MODULE USE [FOX MODULE MANAGER](https://github.com/Fox2Code/FoxMagiskModuleManager/releases) AS MY MODULE IS NOW BEING DEVELOPED ON THE [ALT-REPO](https://github.com/Magisk-Modules-Alt-Repo/HideNavBar)
+THIS REPO HAS BEEN MOSTLY DISCONTINUED AS OF MAGISK'S DISABLING OF THE REPO FEATURE, TO ALWAYS DOWNLOAD MY UPDATED MODULE USE [FOX MODULE MANAGER](https://github.com/Fox2Code/FoxMagiskModuleManager/releases) AS MY MODULE IS NOW BEING DEVELOPED ON THE [ALT-REPO](https://github.com/Magisk-Modules-Alt-Repo/HideNavBar)
 
 ![](https://i.imgur.com/vcXAreJ.png)
 
@@ -20,12 +20,10 @@ This Magisk Module lets you tweak Android 10-13's gestures.
  Run on a terminal app the following command 
  su -c hn
 
-### Translation
- If you wish to have the installer translated to your language send me a text file containing all lines (inside ui_print in common/install.sh) either on Github or my Email
-
 ## Disclaimer
 - Any option not working is due to incompatibility with your current ROM (there's little i can do about it)
-- Any issues related to GCam after installing the module are outside my control 
+- GSI compabitility isn't guaranteed due to Magisk's inconsistent GSI support
+- For issues related to GCam after installing the module you may use the terminal setup tool to increase the navbar size slightly to workaround the issue
 - Automatic navbar coloring doesn't work on Android 11+
 
 ## Links
@@ -81,6 +79,9 @@ This Magisk Module lets you tweak Android 10-13's gestures.
 
 - Additionally back gestures can be disabled on Android 11-12 for either left side only (to access side menus on apps) or both sides (if one wishes to remap the back gestures with other apps)
 
+### Translation
+ If you wish to have the installer translated to your language send me a text file containing all lines (inside ui_print in common/install.sh) either on Github or my Email, omit special symbols such as á,ã
+
 ## Special Thanks
 - [skittles9823](https://github.com/skittles9823) for his help with the initial install script 
 
@@ -99,6 +100,28 @@ This Magisk Module lets you tweak Android 10-13's gestures.
 - All Custom ROMs who made my module an official feature in their ROM (AOSIP, Havoc & etc)
 
 ## Changelog
+### v21.0
+- Rewrite installer for Android 12+ to use fabricated overlays for higher compatibility 
+- Added Gcam lag fix as install option (12+ atm)
+
+  Translations needed for the Gcam fix option 
+
+### v20.0-hotfix
+- Fix terminal setup tool 
+### v20.0
+- Fix Android 10 support (which was broken since v14.0)
+### v19.0
+- Reworked Terminal config tool (su -c hn), should avoid issues related to zipsigner
+- Properly support Rboard Theme Manager v3 to avoid conflicts
+### v18.0
+- Added Samsung A12 support
+### v17.0
+- Proper MIUI detection/install logic (should provide compatibility to MIUI based on Android 10, not tested)
+### v16.4
+- Removed unnecessary waiting during module install 
+### v16.3
+- Added Fox Manager Extension support (support link shortcut when installing the module)
+- Try and improve the volume selector delay a bit
 ### v16.1
 - Fix the Terminal Config tool
 ### v16.0
@@ -153,52 +176,9 @@ This Magisk Module lets you tweak Android 10-13's gestures.
 - Fix and go back to using the new install logic on Android 11
 ### v8.5
 - Revert to old install logic on Android 11 (attempts to bug fix module not installing correctly on some devices)
-### v8.4
-- Fixed an issue that was causing hide pill to be installed regardless of user preference
-- Cleaner install code (again)
-### v8.3
-- Remove Android 11 specific overlays (no longer necessary as the standard ones work just fine on 11)
-- Clean up install code even more
-### v8.2
-- Fix immersive sensitivity options
-- Clean up installer code significantly 
+
 
 (if you notice any issues on Android 11 due to the new install logic report to me immediatelly)
-### v8.1
-- Fix for Immersive+default sensitivity not getting properly installed
-### v8.0
-- Allow changing gesture sensitivity (for users who may prefer Android's default gesture sensitivity)
-### v7.2
-- Fix fullscreen gestures installation (apologies for the inconvenience)
-### v7.1
-- Added new options during install
 
-- Small keyboard bar (for immersive mode): Allows you to have less spacing underneath the keyboard
 
-- Hide Pill (for immersive mode): Allows you to have a near fullscreen experience while still keeping the spacing underneath the keyboard
-### v7.0
-- Switch to the MMT-EX template and added immersive gestures by [samchugit](https://github.com/samchugit/Immersive_Gestural_Nav_Bar) as an option 
-### v6.7
-- Fix gesture option disappearing on later Android 11 builds
-### v6.6 
-- Hotfix for Android 11 beta
-### v6.5
-- Lowered gesture area to 18dp to reduce conflicts with apps
-### v6.4
-- Fix Android 11 support
-### v6.2
-- Add support for Android 11/R (untested as Magisk isn't avaliable for Android R yet)
-### v6.1
-- Block installation on MIUI as it's incompatible with the module
-### v6.0
-- Added support for ROMs that use /vendor/overlays for their gesture overlays
-### v5.0
-- Update to the latest Magisk module template and some minor clean ups in the code
-### v4.0
-- Hopefully fixed the issue that made so uninstalling the module made gestures completely unavailable on some ROMs
-### v3.0
-- Reduced conflict with some apps (like Gboard) by slightly lowering the gesture trigger area
-### v2.0
-- Hide gesture bar correctly in landscape
-### v1.0
-- Initial release
+For older changelogs check [here](https://github.com/Magisk-Modules-Alt-Repo/HideNavBar/blob/master/OC.md)
